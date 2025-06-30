@@ -1,0 +1,86 @@
+% This must be in the first 5 lines to tell arXiv to use pdfLaTeX, which is strongly recommended.
+\pdfoutput=1
+% In particular, the hyperref package requires pdfLaTeX in order to break URLs across lines.
+
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[preprint]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+% \usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+% \usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+
+
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{Project title}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{
+    Shir Babian\qquad Yael Batat\qquad Gilad Ticher \\
+    Hebrew University of Jerusalem \\\\
+  \texttt{\{shir.babian,yael.batat,gilad.ticher\}@mail.huji.ac.il} \\}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Misinformation proliferation has made automated fact verification critical for determining whether claims are supported, refuted, or lack sufficient evidence. Current approaches rely on single-step model decisions, potentially missing nuanced reasoning that emerges from argumentative discourse. We investigate whether simulated debates between opposing model-based agents improve fact verification accuracy compared to direct prediction methods. We fine-tune Flan-T5-large \cite{t5} on Reddit's r/ChangeMyView dataset \cite{winarg} to enhance argumentative reasoning capabilities, then simulate debates between two agents—one supporting and one refuting each claim—using evidence from the FEVER benchmark \cite{FEVER}. The debate transcript serves as context for final verification decisions. The study uses FEVER benchmark data for evaluation, containing claims with gold-standard evidence and three-class labels (SUPPORTS, REFUTES, NOT ENOUGH INFO), while fine-tuning data comes from r/ChangeMyView discussions providing rich argumentative patterns. Model performance is measured using accuracy on FEVER test set, comparing debate-enhanced predictions against baseline single-step decisions to quantify the impact of simulated discourse. This work explores whether structured argumentative reasoning through simulated debates can improve automated fact verification, potentially advancing how language models handle complex reasoning tasks requiring evidence evaluation and claim assessment.
+\end{abstract}
+
+\section{Introduction}
+
+\section{Data}
+
+\section{Methods}
+
+\section{Results}
+
+\section{Analysis}
+
+\section{Conclusion}
+
+\bibliography{custom}
+\bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Appendix}
+
+\end{document}

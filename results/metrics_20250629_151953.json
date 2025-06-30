@@ -1,0 +1,10 @@
+{
+  "debate_accuracy": 0.3333333333333333,
+  "baseline_accuracy": 0.6666666666666666,
+  "accuracy_improvement": -0.3333333333333333,
+  "avg_debate_time": 49.181047439575195,
+  "avg_baseline_time": 1.7996026674906414,
+  "time_ratio": 27.328836708245742,
+  "agreement_rate": 0.6666666666666666,
+  "total_examples": 3
+}

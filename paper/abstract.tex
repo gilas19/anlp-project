@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[square,numbers]{natbib}
+
+% \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\title{Simulated Argumentative Discourse for Improved Fact Verification: A Multi-Agent Reasoning Approach}
+
+\author{
+    Shir Babian\qquad Yael Batat\qquad Gilad Ticher
+}
+
+\begin{document}
+\maketitle
+\section{Abstract}
+\textbf{Motivation:} In an era of widespread misinformation, the task of fact verification—determining whether a given claim is supported, refuted, or lacks sufficient evidence—has become increasingly important. We aim to improve the reasoning and expressive capabilities of language models by simulating argumentative discussions before making a final judgment.\\\\
+\textbf{Research Question:} Can a simulated debate between two model-based agents—one supporting the claim and one refuting it—lead to more accurate fact verification compared to a single-step decision?\\\\
+\textbf{Data:} We will use the FEVER \cite{FEVER} benchmark dataset, which provides claims, gold-standard evidence, and labels (SUPPORTS, REFUTES, NOT ENOUGH INFO). For fine-tuning, we will use data from Reddit’s r/ChangeMyView (CMV) \cite{winarg} forum, which contains rich argumentative discussions well-suited to enhancing a model’s reasoning ability.\\\\
+\textbf{Model:} We will fine-tune a language model (Flan-T5-large \cite{t5}) on the CMV data. During inference, the model will simulate a debate between two agents: one consistently arguing that the evidence supports the claim, and the other that it refutes the claim. This debate will then be used as a prompt for the same model to generate the final prediction.\\\\
+\textbf{Evaluation:} We will evaluate the model using accuracy on the FEVER test set, comparing performance with and without the debate phase to assess the impact of the simulated discourse.\\\\
+\textbf{Milestone:} We will evaluate the performance of the baseline model before the fine-tuning, on the test set (FEVER dataset).\\\\
+
+\bibliography{custom}
+\bibliographystyle{unsrtnat}
+\bibliographystyle{abbrvnat}
+
+\end{document}
+
