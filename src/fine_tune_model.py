@@ -7,6 +7,7 @@ for improved argumentative reasoning in fact verification debates.
 import pandas as pd
 import torch
 import os
+import json
 from transformers import (
     AutoTokenizer, 
     AutoModelForSeq2SeqLM,
@@ -28,36 +29,155 @@ class CMVDataProcessor:
         self.tokenizer = tokenizer
         self.max_length = max_length
     
-    def load_data(self, file_path: str) -> pd.DataFrame:
-        """Load and preprocess CMV dataset"""
+    def load_data(self, file_path: str) -> List[Dict]:
+        """Load and preprocess CMV conversation tree dataset"""
         # Handle relative path from project root
         if not os.path.isabs(file_path):
             project_root = os.path.dirname(os.path.dirname(__file__))
             file_path = os.path.join(project_root, 'data', file_path)
         
-        df = pd.read_csv(file_path)
-        df = df.dropna()
-        logger.info(f"Loaded {len(df)} argument pairs")
-        return df
+        with open(file_path, 'r', encoding='utf-8') as f:
+            conversations = json.load(f)
+        
+        logger.info(f"Loaded {len(conversations)} conversation trees")
+        return conversations
     
-    def create_training_prompts(self, df: pd.DataFrame) -> List[Dict[str, str]]:
-        """Create training prompts for argumentative reasoning"""
+    def create_training_prompts(self, conversations: List[Dict]) -> List[Dict[str, str]]:
+        """Create training prompts for debate-style argumentative reasoning"""
         prompts = []
         
-        for _, row in df.iterrows():
-            claim = row['claim'].strip()
-            reply = row['reply'].strip()
+        for conversation in conversations:
+            title = conversation['title']
+            op_text = conversation['op_text']
+            tree = conversation['tree']
             
-            # Create argumentative reasoning prompt
-            input_text = f"Generate a thoughtful argument in response to: {claim}"
-            target_text = reply
-            
-            prompts.append({
-                'input_text': input_text,
-                'target_text': target_text
-            })
+            # Extract debate exchanges from conversation tree
+            debate_exchanges = self._extract_debate_exchanges(tree, title, op_text)
+            prompts.extend(debate_exchanges)
         
+        logger.info(f"Created {len(prompts)} training examples from conversation trees")
         return prompts
+    
+    def _extract_debate_exchanges(self, tree: List[Dict], title: str, op_text: str) -> List[Dict[str, str]]:
+        """Extract debate-style exchanges from conversation tree"""
+        exchanges = []
+        
+        # Find meaningful exchanges where someone responds to the OP
+        for node in tree:
+            if node['speaker'] != tree[0]['speaker'] and node['text'] and len(node['text'].strip()) > 50:
+                # Create debate-style prompt similar to the debate system
+                input_text = f"""Claim: "{title}"
+Original Position: "{op_text[:500]}..."
+
+Respond to this position with a thoughtful counterargument or perspective. Reference specific points and build a logical argument (max 3 sentences)."""
+                
+                target_text = node['text'].strip()
+                
+                # Skip deleted or very short responses
+                if target_text != "[deleted]" and len(target_text) > 30:
+                    exchanges.append({
+                        'input_text': input_text,
+                        'target_text': target_text
+                    })
+                
+                # Also extract child responses for multi-turn debate simulation
+                if node['children']:
+                    child_exchanges = self._extract_child_exchanges(node, title, op_text)
+                    exchanges.extend(child_exchanges)
+        
+        return exchanges
+    
+    def _extract_child_exchanges(self, parent_node: Dict, title: str, op_text: str) -> List[Dict[str, str]]:
+        """Extract exchanges from child nodes to simulate multi-turn debates"""
+        exchanges = []
+        
+        for child in parent_node['children']:
+            if child['text'] and child['text'] != "[deleted]" and len(child['text'].strip()) > 50:
+                # Create context from parent argument
+                parent_arg = parent_node['text'][:300] + "..." if len(parent_node['text']) > 300 else parent_node['text']
+                
+                input_text = f"""Claim: "{title}"
+Previous Argument: "{parent_arg}"
+
+Respond to the previous argument with a counter-response or elaboration. Build on the debate and provide specific reasoning (max 3 sentences)."""
+                
+                target_text = child['text'].strip()
+                
+                exchanges.append({
+                    'input_text': input_text,
+                    'target_text': target_text
+                })
+        
+        return exchanges
+    
+    def create_fact_verification_prompts(self, conversations: List[Dict]) -> List[Dict[str, str]]:
+        """Create fact verification debate training prompts similar to debate system"""
+        prompts = []
+        
+        for conversation in conversations:
+            title = conversation['title']
+            op_text = conversation['op_text']
+            tree = conversation['tree']
+            
+            # Extract structured debates for fact verification training
+            fact_debates = self._extract_fact_verification_debates(tree, title, op_text)
+            prompts.extend(fact_debates)
+        
+        logger.info(f"Created {len(prompts)} fact verification debate examples")
+        return prompts
+    
+    def _extract_fact_verification_debates(self, tree: List[Dict], title: str, op_text: str) -> List[Dict[str, str]]:
+        """Extract structured debates that simulate fact verification scenarios"""
+        debates = []
+        
+        # Find sequences of arguments and counter-arguments
+        for i, node in enumerate(tree):
+            if node['speaker'] != tree[0]['speaker'] and node['text'] and len(node['text'].strip()) > 50:
+                # Create Agent A (supporting) prompt
+                support_prompt = f"""You are participating in a structured fact-verification debate.
+
+Claim: "{title}"
+Evidence: "{op_text[:400]}..."
+
+Your Role: SUPPORT the claim using the evidence provided.
+
+Guidelines:
+- Reference specific details from the evidence
+- Build logical arguments connecting evidence to your position
+- Stay focused and persuasive (max 3 sentences)
+- Base arguments on factual analysis
+
+Agent A: """
+                
+                # Create Agent B (refuting) prompt with context
+                if node['children']:
+                    for child in node['children']:
+                        if child['text'] and child['text'] != "[deleted]" and len(child['text'].strip()) > 50:
+                            refute_prompt = f"""You are participating in a structured fact-verification debate.
+
+Claim: "{title}"
+Evidence: "{op_text[:400]}..."
+
+Your role is to REFUTE the claim using the evidence and respond thoughtfully to your opponent's arguments.
+Reference specific points made by Agent A where appropriate, and try to persuade a neutral judge.
+Limit your response to 3 sentences.
+
+Debate so far:
+Agent A: {node['text'][:200]}...
+
+Agent B: """
+                            
+                            debates.append({
+                                'input_text': support_prompt,
+                                'target_text': node['text'].strip()
+                            })
+                            
+                            debates.append({
+                                'input_text': refute_prompt,
+                                'target_text': child['text'].strip()
+                            })
+        
+        return debates
     
     def tokenize_function(self, examples):
         """Tokenize input and target texts"""
@@ -84,11 +204,12 @@ class CMVDataProcessor:
 
 def fine_tune_model(
     model_name: str = "google/flan-t5-large",
-    data_path: str = "cmv_argument_pairs_unique_claims.csv",
+    data_path: str = "cmv_10_conversation_trees.json",
     output_dir: str = "./finetuned_model",
     num_epochs: int = 3,
     batch_size: int = 8,
-    learning_rate: float = 5e-5
+    learning_rate: float = 5e-5,
+    training_format: str = "debate"  # "debate" for fact verification format, "general" for general argumentative
 ):
     """Fine-tune Flan-T5 on CMV dataset"""
     
@@ -98,10 +219,21 @@ def fine_tune_model(
     
     # Process data
     processor = CMVDataProcessor(tokenizer)
-    df = processor.load_data(data_path)
+    conversations = processor.load_data(data_path)
     
-    # Create training data (use subset for faster training)
-    training_data = processor.create_training_prompts(df.head(1000))
+    # Create training data from conversation trees based on format
+    if training_format == "debate":
+        training_data = processor.create_fact_verification_prompts(conversations)
+        logger.info("Using debate-style fact verification training format")
+    else:
+        training_data = processor.create_training_prompts(conversations)
+        logger.info("Using general argumentative training format")
+    
+    # Use subset for faster training if needed
+    if len(training_data) > 1000:
+        training_data = training_data[:1000]
+        logger.info(f"Using subset of {len(training_data)} examples for training")
+    
     dataset = Dataset.from_list(training_data)
     
     # Tokenize
@@ -163,4 +295,5 @@ def fine_tune_model(
     return model, tokenizer
 
 if __name__ == "__main__":
-    fine_tune_model()
+    # Use debate format by default to match the actual debate system
+    fine_tune_model(training_format="debate")
