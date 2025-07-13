@@ -299,5 +299,4 @@ if __name__ == "__main__":
     )
     report = analyzer.generate_report('analysis_report.json')
     analyzer.visualize_results(report)
-
     print("Analysis complete. Report saved to 'analysis_report.json'")
