@@ -297,7 +297,6 @@ if __name__ == "__main__":
         baseline_results_path='baseline_results.json',
         fever_data_path='fever_data.jsonl'
     )
-
     report = analyzer.generate_report('analysis_report.json')
     analyzer.visualize_results(report)
 
