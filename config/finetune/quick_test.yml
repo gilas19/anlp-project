@@ -3,13 +3,13 @@
 
 # Model and data settings
 model:
-  name: "google/flan-t5-base"
-  output_dir: "models/flan-t5-base-cmv-debate-lora"
+  name: "google/flan-t5-small"
+  output_dir: "models/flan-t5-small-cmv-debate-lora"
 
 data:
   path: "data/cmv_10_conversation_trees.json"
   max_samples: 2
-  max_input_length: 256
+  max_input_length: 512
   max_target_length: 256
 
 # Training hyperparameters
