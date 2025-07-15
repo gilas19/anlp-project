@@ -1,0 +1,15 @@
+model:
+  type: fine_tuned
+  name: google/flan-t5-large
+  lora_path: models/flan-t5-small-cmv-debate-lora
+
+experiment:
+  dimension: response_length
+  value: standard
+
+data:
+  sample_size: 150
+
+output:
+  dir: results/fine_tuned
+  name: response_length

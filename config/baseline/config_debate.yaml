@@ -1,0 +1,18 @@
+model:
+  type: baseline
+  name: google/flan-t5-large
+
+experiment:
+  dimension: debate
+  value: with_debate
+
+debate:
+  rounds: 6
+  initiator: 1
+
+data:
+  sample_size: 150
+
+output:
+  dir: results/baseline
+  name: with_debate
