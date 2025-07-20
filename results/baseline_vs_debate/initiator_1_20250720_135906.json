@@ -1,0 +1,1602 @@
+[
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 1.1075453758239746,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.32153987884521484,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2349388599395752,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22885680198669434,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21677255630493164,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.20925307273864746,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22683978080749512,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2035200595855713,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21229839324951172,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21855735778808594,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21071076393127441,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21875405311584473,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2105541229248047,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21410202980041504,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22790193557739258,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22470641136169434,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22950148582458496,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2591738700866699,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21551156044006348,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2194204330444336,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.23133039474487305,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2124943733215332,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22213172912597656,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21424007415771484,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.339444637298584,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2336573600769043,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21454095840454102,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2245314121246338,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22462916374206543,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.23628020286560059,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21170759201049805,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2082381248474121,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2123868465423584,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2267932891845703,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.23159313201904297,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21409225463867188,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21633195877075195,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21782827377319336,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22101831436157227,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21985363960266113,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21879029273986816,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22142601013183594,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.21550321578979492,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22785711288452148,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.22583365440368652,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.20675277709960938,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.3102712631225586,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2967872619628906,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2745389938354492,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "SUPPORTS",
+    "response_time": 0.2710592746734619,
+    "response_length": 1,
+    "predicted_label": "SUPPORTS",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.5243251323699951,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.5869536399841309,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.39957213401794434,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3675556182861328,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3606898784637451,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.39548707008361816,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3706326484680176,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.34819793701171875,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.381925106048584,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.38243794441223145,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3554868698120117,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.37699246406555176,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.35796189308166504,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3566884994506836,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.367114782333374,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.34476804733276367,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3789238929748535,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.37775111198425293,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3631937503814697,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.37111759185791016,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3604621887207031,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3539550304412842,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3634297847747803,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3461008071899414,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3501865863800049,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3683030605316162,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.34811973571777344,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3421163558959961,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3641536235809326,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.44774293899536133,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.4760246276855469,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.43731260299682617,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.5221455097198486,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.5336065292358398,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.35150599479675293,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3692038059234619,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.33985447883605957,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.3355865478515625,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.35577821731567383,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3467214107513428,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3364691734313965,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3890063762664795,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3486161231994629,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.34223270416259766,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.35802459716796875,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTE",
+    "response_time": 0.33777809143066406,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3419179916381836,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.36302924156188965,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.34703898429870605,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "initiator",
+      "value": "agent_1"
+    },
+    "model_type": "baseline",
+    "method": "direct",
+    "response": "REFUTES",
+    "response_time": 0.3444335460662842,
+    "response_length": 1,
+    "predicted_label": "REFUTES",
+    "correct": true
+  }
+]

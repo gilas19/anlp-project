@@ -16,6 +16,9 @@ import os
 import re
 import yaml
 import argparse
+import os
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+os.chdir(PROJECT_ROOT)
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -265,7 +268,7 @@ def fine_tune_model_with_lora(config: Dict):
     data_path = config["data"]["path"]
     output_dir = config["model"]["output_dir"]
     batch_size = config["training"]["batch_size"]
-    learning_rate = config["training"]["learning_rate"]
+    learning_rate = float(config["training"]["learning_rate"])
     num_epochs = config["training"]["num_epochs"]
     max_input_length = config["data"]["max_input_length"]
     max_target_length = config["data"]["max_target_length"]

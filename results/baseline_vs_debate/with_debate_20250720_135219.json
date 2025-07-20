@@ -1,0 +1,2802 @@
+[
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.9540842374165853,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.5261976718902588,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 2.8349411884943643,
+    "response_length": 51.666666666666664,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.4609750111897786,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2665481964747112,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.753471851348877,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 2.7810267210006714,
+    "response_length": 51.666666666666664,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1838425795237224,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 4.87971560160319,
+    "response_length": 87.83333333333333,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1987509727478027,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 2.7654517889022827,
+    "response_length": 51.666666666666664,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 1.1396328210830688,
+    "response_length": 20.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.4758596420288086,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+    "response_time": 1.2280556758244832,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 4.890546441078186,
+    "response_length": 87.83333333333333,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.148152510325114,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2478761672973633,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.4946912129720051,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1813361247380574,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.8410825332005819,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.7292261521021525,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2805616458257039,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 2.844390789667765,
+    "response_length": 51.666666666666664,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: 1. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: a popular worldwide spectator sport. 9. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 4.999470988909404,
+    "response_length": 87.83333333333333,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.4335721333821614,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.8041040897369385,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1411064465840657,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2606856028238933,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.5224605798721313,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1543348630269368,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.7783017953236898,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.806561271349589,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.531796932220459,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1706997156143188,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.807944416999817,
+    "response_length": 16.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.7635250091552734,
+    "response_length": 16.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 4.489016493161519,
+    "response_length": 83.33333333333333,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.4773871103922527,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.6893946727116903,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Paris.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2298603852589924,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016), and Sleepless (2017).",
+    "response_time": 1.316900650660197,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: It is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 1.065356691678365,
+    "response_length": 20.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.746924082438151,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.7561497688293457,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891.",
+      "Agent 1: James Naismith invented basketball in 1891.",
+      "Agent 2: James Naismith invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith invented basketball in 1891.",
+    "response_time": 0.7130202054977417,
+    "response_length": 6.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Basketball was invented in 1891.",
+    "evidence": "Basketball was invented in December 1891 by Canadian-American gym instructor James Naismith.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+      "Agent 2: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+      "Agent 1: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+      "Agent 2: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+      "Agent 1: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+      "Agent 2: James Naismith was a Canadian-American gym instructor who invented basketball in 1891."
+    ],
+    "response": "Agent 2: James Naismith was a Canadian-American gym instructor who invented basketball in 1891.",
+    "response_time": 1.0494091113408406,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.7610502640406291,
+    "response_length": 16.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.436428189277649,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Tennis is a sport.",
+    "evidence": "Tennis is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: 1. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 2. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 3. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 4. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 5. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 6. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 7. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 8. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 9. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport. 10. Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 1: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+      "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport."
+    ],
+    "response": "Agent 2: Tennis is a sport that is played by millions of recreational players and is also a popular worldwide spectator sport.",
+    "response_time": 2.818532387415568,
+    "response_length": 51.666666666666664,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Gabrielle Union was in a movie.",
+    "evidence": "She co-starred in film The Birth of a Nation (2016), and next appeared in Almost Christmas (2016) and Sleepless (2017).",
+    "label": "SUPPORTS",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 1: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+      "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017)."
+    ],
+    "response": "Agent 2: The Birth of a Nation (2016), Almost Christmas (2016) and Sleepless (2017).",
+    "response_time": 1.468219796816508,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres and Mike Hamlin are the founders of Eleveneleven.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.609022895495097,
+    "response_length": 20.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 1: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 1: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+    "response_time": 0.9163036346435547,
+    "response_length": 8.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1353936990102131,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.2016231616338093,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.7292592922846477,
+    "response_length": 22.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1496151288350422,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.266640543937683,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label Eleveneleven."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label Eleveneleven.",
+    "response_time": 0.8647205034891764,
+    "response_length": 10.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2470322847366333,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.7361905972162883,
+    "response_length": 22.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.156586766242981,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2690811951955159,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is not the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+    "response_time": 1.3020840485890706,
+    "response_length": 7.166666666666667,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.151949127515157,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.0813833077748616,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1150355736414592,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.0668227672576904,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1267876625061035,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is not a record label.",
+      "Agent 2: Ellen DeGeneres is not a record label.",
+      "Agent 1: Ellen DeGeneres is a record label.",
+      "Agent 2: Ellen DeGeneres is a record label.",
+      "Agent 1: Ellen DeGeneres is a record label.",
+      "Agent 2: Ellen DeGeneres is a record label."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is a record label.",
+    "response_time": 1.0587793986002605,
+    "response_length": 6.333333333333333,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres and Mike Hamlin are the founders of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres and Mike Hamlin are the founders of Eleveneleven.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.524747093518575,
+    "response_length": 18.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 0.9858673810958862,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2084074417750041,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.141181747118632,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2220065991083782,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 0.9852172533671061,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.208530108133952,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2061195373535156,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is not the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+    "response_time": 1.0682346820831299,
+    "response_length": 7.166666666666667,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.73528258005778,
+    "response_length": 22.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.11347492535909,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 0.9690133333206177,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.0690426429112752,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1392267942428589,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres and Mike Hamlin are the founders of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres and Mike Hamlin are the founders of Eleveneleven.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 1: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+      "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros."
+    ],
+    "response": "Agent 2: Eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "response_time": 1.512909213701884,
+    "response_length": 18.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 1: Ellen DeGeneres is the founder of Eleveneleven.",
+      "Agent 2: Ellen DeGeneres is the founder of Eleveneleven."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of Eleveneleven.",
+    "response_time": 1.1996719042460124,
+    "response_length": 7.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1522448857625325,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.0485560099283855,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 0.979564388593038,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 1.0742319822311401,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1507067282994587,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2218072414398193,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.141881028811137,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2181665897369385,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 1: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 1: Ellen DeGeneres is a television personality, not a chef.",
+      "Agent 2: Ellen DeGeneres is a television personality, not a chef."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is a television personality, not a chef.",
+    "response_time": 0.8118524551391602,
+    "response_length": 8.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2458302974700928,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "Eleveneleven was founded by a chef.",
+    "evidence": "eleveneleven is a record label founded in 2010 by Mike Hamlin, Ellen DeGeneres and her production company, in association with Warner Bros.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 1: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+      "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin."
+    ],
+    "response": "Agent 2: Ellen DeGeneres is the founder of the record label, not Mike Hamlin.",
+    "response_time": 0.9809162219365438,
+    "response_length": 12.0,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.2037894328435261,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.233214020729065,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.1239847739537556,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  },
+  {
+    "claim": "The Eiffel Tower is located in Berlin.",
+    "evidence": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "label": "REFUTES",
+    "config": {
+      "dimension": "debate",
+      "value": "with_debate"
+    },
+    "model_type": "baseline",
+    "method": "debate",
+    "num_rounds": 6,
+    "initiator": 1,
+    "debate_history": [
+      "Agent 1: The Eiffel Tower is located on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 1: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France."
+    ],
+    "response": "Agent 2: The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+    "response_time": 1.231328050295512,
+    "response_length": 15.5,
+    "agent_1_responses": 3,
+    "agent_2_responses": 3,
+    "predicted_label": "NOT ENOUGH INFO",
+    "correct": false
+  }
+]

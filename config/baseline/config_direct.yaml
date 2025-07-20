@@ -3,12 +3,12 @@ model:
   name: google/flan-t5-large
 
 experiment:
-  dimension: debate
-  value: without_debate
+  dimension: prediction_mode
+  value: direct
 
 data:
   sample_size: 150
 
 output:
   dir: results/baseline
-  name: without_debate
+  name: direct_results
