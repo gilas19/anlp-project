@@ -3,8 +3,8 @@
 
 # Model and data settings
 model:
-  name: "google/flan-t5-base"
-  output_dir: "models/flan-t5-base-cmv-debate-lora"
+  name: "google/flan-t5-large"
+  output_dir: "models/flan-t5-large-cmv-debate-lora"
 
 data:
   path: "data/cmv_10_conversation_trees.json"
@@ -18,12 +18,12 @@ training:
   learning_rate: 0.0005
   logging_steps: 10
   num_epochs: 2
-  warmup_steps: 10
+  warmup_steps: 100
   weight_decay: 0.01
   
 # LoRA configuration
 lora:
-  r: 32
+  r: 16
   lora_alpha: 32
   lora_dropout: 0.05
   target_modules: ["q", "v"]
