@@ -315,11 +315,10 @@ def fine_tune_model_with_lora(config: Dict):
         num_train_epochs=num_epochs,
         per_device_train_batch_size=batch_size,
         per_device_eval_batch_size=batch_size,
-        gradient_accumulation_steps=config["training"]["gradient_accumulation_steps"],
         warmup_steps=config["training"]["warmup_steps"],
         weight_decay=config["training"]["weight_decay"],
         logging_dir=f"{output_dir}/logs",
-        logging_steps=config["logging"]["logging_steps"],
+        logging_steps=config["training"]["logging_steps"],
         eval_strategy="steps",
         eval_steps=config["evaluation"]["eval_steps"],
         save_steps=config["evaluation"]["save_steps"],
@@ -331,7 +330,6 @@ def fine_tune_model_with_lora(config: Dict):
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         greater_is_better=False,
-        report_to=config["logging"]["report_to"],
     )
 
     # Initialize trainer
@@ -369,63 +367,13 @@ def load_lora_model(base_model_name: str, lora_path: str):
         base_model_name,
         torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
         device_map="auto" if torch.cuda.is_available() else None,
+        # device_map="auto" if torch.cuda.is_available() else "mps",
     )
 
     logger.info(f"Loading LoRA adapter from: {lora_path}")
     model = PeftModel.from_pretrained(model, lora_path)
 
     return model, tokenizer
-
-
-def evaluate_debate_responses(model_path: str, test_data: List[Dict], base_model_name: str = "google/flan-t5-large"):
-    """Evaluate fine-tuned LoRA model on debate response generation"""
-    model, tokenizer = load_lora_model(base_model_name, model_path)
-    model.eval()
-
-    logger.info(f"Evaluating on {len(test_data)} test examples...")
-
-    sample_results = []
-
-    for i, item in enumerate(test_data[:10]):  # Sample first 10 for inspection
-        prompt = item["prompt"]
-        true_response = item["response"]
-
-        input_ids = tokenizer(prompt, return_tensors="pt", max_length=512, truncation=True).input_ids
-
-        with torch.no_grad():
-            outputs = model.generate(
-                input_ids=input_ids,
-                max_length=256,
-                do_sample=True,
-                temperature=0.7,
-                top_p=0.9,
-                num_beams=3,
-                pad_token_id=tokenizer.pad_token_id,
-            )
-
-        generated_response = tokenizer.decode(outputs[0], skip_special_tokens=True)
-        # Remove the input prompt from generated text
-        if prompt in generated_response:
-            generated_response = generated_response.replace(prompt, "").strip()
-
-        sample_results.append(
-            {
-                "prompt": prompt[:200] + "...",
-                "generated": generated_response,
-                "true": true_response[:200] + "...",
-                "claim": item["claim"],
-                "stance": item["stance"],
-            }
-        )
-
-        if i < 3:  # Print first 3 examples
-            logger.info(f"\n--- Example {i+1} ---")
-            logger.info(f"Claim: {item['claim']}")
-            logger.info(f"Stance: {item['stance']}")
-            logger.info(f"Generated: {generated_response}")
-            logger.info(f"Original: {true_response}")
-
-    return sample_results
 
 
 def load_config(config_path: str = "default.yaml") -> Dict:
@@ -436,7 +384,7 @@ def load_config(config_path: str = "default.yaml") -> Dict:
     return config
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Fine-tune FLAN-T5-Large with LoRA on CMV debate data")
     parser.add_argument("--config", type=str, default="default.yaml", help="Path to YAML config file")
     args = parser.parse_args()
@@ -454,13 +402,8 @@ if __name__ == "__main__":
     trainer, eval_results = fine_tune_model_with_lora(config)
 
     logger.info("LoRA fine-tuning completed!")
+    logger.info(f"Evaluation results: {eval_results}")
 
-    if not config["evaluation"]["skip_evaluation"]:
-        # Load test data for evaluation
-        _, test_data = preprocess_data(config["data"]["path"], config["data"]["max_samples"])
 
-        # Evaluate the fine-tuned model
-        logger.info("Evaluating fine-tuned model...")
-        sample_results = evaluate_debate_responses(config["model"]["output_dir"], test_data[:20], config["model"]["name"])
-
-    logger.info("All tasks completed!")
+if __name__ == "__main__":
+    main()

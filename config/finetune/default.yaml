@@ -3,41 +3,34 @@
 
 # Model and data settings
 model:
-  name: "google/flan-t5-large"
-  output_dir: "models/flan-t5-large-cmv-debate-lora"
+  name: "google/flan-t5-base"
+  output_dir: "models/flan-t5-base-cmv-debate-lora"
 
 data:
   path: "data/cmv_10_conversation_trees.json"
-  max_samples: null  # Use all available samples, or specify a number
+  max_samples: null
   max_input_length: 512
   max_target_length: 256
 
 # Training hyperparameters
 training:
   batch_size: 2
-  learning_rate: 0.0001
-  num_epochs: 1
-  gradient_accumulation_steps: 2
-  warmup_steps: 100
+  learning_rate: 0.0005
+  logging_steps: 10
+  num_epochs: 2
+  warmup_steps: 10
   weight_decay: 0.01
   
 # LoRA configuration
 lora:
-  r: 16  # Rank
-  lora_alpha: 32  # LoRA scaling parameter
-  lora_dropout: 0.1
-  target_modules: ["q", "v", "k", "o", "wi", "wo"]  # T5 attention and FFN modules
+  r: 32
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["q", "v"]
   bias: "none"
 
 # Evaluation settings
 evaluation:
-  skip_evaluation: false
-  skip_debate_test: false
-  eval_steps: 100
-  save_steps: 100
+  eval_steps: 50
+  save_steps: 50
   save_total_limit: 3
-  
-# Logging
-logging:
-  logging_steps: 50
-  report_to: []  # Disable wandb by default
