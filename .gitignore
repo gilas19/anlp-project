@@ -160,3 +160,5 @@ Thumbs.db
 # Results and experiments (optional - remove if you want to track these)
 # results/
 # experiments/output/
+
+.nothing/

@@ -1,0 +1,36 @@
+# Fine-tuning configuration for FLAN-T5 on CMV debate data
+# This configuration file contains all parameters for the fine-tuning process
+
+# Model and data settings
+model:
+  name: "google/flan-t5-small"
+  output_dir: "models/flan-t5-small-cmv-debate-lora"
+
+data:
+  path: "data/cmv_10_conversation_trees.json"
+  max_samples: null
+  max_input_length: 256
+  max_target_length: 128
+
+# Training hyperparameters
+training:
+  batch_size: 2
+  learning_rate: 0.0005
+  logging_steps: 10
+  num_epochs: 2
+  warmup_steps: 50
+  weight_decay: 0.01
+  
+# LoRA configuration
+lora:
+  r: 32
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: ["q", "v"]
+  bias: "none"
+
+# Evaluation settings
+evaluation:
+  eval_steps: 50
+  save_steps: 50
+  save_total_limit: 3

@@ -1,0 +1,6 @@
+# CMV Preprocessing Configuration
+input: "data/cmv.json"
+output: "data/cmv_10_conversation_trees.json"
+
+stance:
+  model: "all-MiniLM-L6-v2"
