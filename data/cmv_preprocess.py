@@ -14,7 +14,7 @@ import torch
 import logging
 from dataclasses import dataclass
 from collections import OrderedDict
-import argparse
+import yaml
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -272,16 +272,10 @@ def add_stance_classifications(input_file: str, output_file: str, model_name: st
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Add stance classification to CMV conversation data")
-    parser.add_argument("--input", "-i", default="data/cmv_10_conversation_trees.json", help="Input JSON file with conversation data")
-    parser.add_argument(
-        "--output", "-o", default="data/cmv_10_conversation_trees.json", help="Output JSON file with stance classifications"
-    )
-    parser.add_argument("--model", "-m", default="all-MiniLM-L6-v2", help="Sentence transformer model to use")
+    with open("config/preprocess/cmv.yaml", "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f)
 
-    args = parser.parse_args()
-
-    add_stance_classifications(args.input, args.output, args.model)
+    add_stance_classifications(config["input"], config["output"], config["stance"]["model"])
 
 
 if __name__ == "__main__":
