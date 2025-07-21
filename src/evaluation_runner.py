@@ -3,9 +3,9 @@
 Main experiment runner for comparing baseline and fine-tuned models
 """
 """
-python evaluation_runner.py --config config/baseline/config_debate.yaml
-python evaluation_runner.py --config config/baseline/config_dialogs_1.yaml
-python evaluation_runner.py --config config/baseline/config_dialogs_2.yaml
+python evaluation_runner.py --config configs/baseline/config_debate.yaml
+python evaluation_runner.py --config configs/baseline/config_dialogs_1.yaml
+python evaluation_runner.py --config configs/baseline/config_dialogs_2.yaml
 """
 
 import yaml
@@ -63,7 +63,7 @@ class ModelEvaluator:
             )
             self.model = PeftModel.from_pretrained(
                 base_model,
-                self.config['model']['lora_path']
+                "/content/anlp-project/models/flan-t5-large-cmv-debate-lora"
             )
 
         self.model.eval()
@@ -162,36 +162,34 @@ Limit your response to 3 sentences.
             'model_type': self.config['model']['type']
         }
 
-        # Check if we should use debate mode
-        use_debate = (
-                self.config['experiment']['dimension'] == 'debate' and
-                'debate' in self.config and
-                'rounds' in self.config['debate']
-        )
-
-        if use_debate:
+        if self.config['experiment']['dimension'] == 'debate':
             # Debate mode evaluation
             debate_result = self.simulate_debate(
                 claim,
                 evidence,
                 num_rounds=self.config['debate']['rounds']
             )
+
             result.update({
                 'method': 'debate',
                 'num_rounds': self.config['debate']['rounds'],
+                'initiator': self.config['debate'].get('initiator', 1),
                 'debate_history': debate_result['history'],
                 'response': debate_result['final_response'],
                 'response_time': np.mean(debate_result['metrics']['response_times']),
-                'response_length': np.mean(debate_result['metrics']['response_lengths'])
+                'response_length': np.mean(debate_result['metrics']['response_lengths']),
+                'agent_1_responses': debate_result['metrics']['agent_1_responses'],
+                'agent_2_responses': debate_result['metrics']['agent_2_responses']
             })
         else:
             # Direct prediction mode
-            prompt = f"""Claim: "{claim}"
-    Evidence: "{evidence}"
+            prompt = f"""
+Claim: "{claim}"
+Evidence: "{evidence}"
 
-    Based on the evidence, does the claim SUPPORT, REFUTE, or is there NOT ENOUGH INFO?
-    Answer with just one of: SUPPORTS, REFUTES, NOT ENOUGH INFO"""
-
+Based on the evidence, does the claim SUPPORT, REFUTE, or is there NOT ENOUGH INFO?
+Answer with just one of: SUPPORTS, REFUTES, NOT ENOUGH INFO
+"""
             response, time_taken, length = self.generate_response(prompt)
 
             result.update({
