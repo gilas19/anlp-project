@@ -94,7 +94,6 @@ def generate_response(model, tokenizer, prompt: str) -> Dict[str, Any]:
         truncation=True,
         max_length=512
     )
-
     # Move input_ids tensor to device
     inputs = {k: v.to(model.device) for k, v in inputs.items()}
 
