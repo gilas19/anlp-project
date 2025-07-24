@@ -73,9 +73,9 @@ def load_fever_data():
     return claims
 def load_models():
     """Load baseline and fine-tuned models"""
-    baseline_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-small")
-    fine_tuned_model = T5ForConditionalGeneration.from_pretrained("/Users/yaelbatat/Desktop/pythonProject/ANLP/anlpProject/anlp-project/models/flan-t5-small-cmv-debate-lora")  # Update this
-    tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-small")
+    baseline_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-large")
+    fine_tuned_model = T5ForConditionalGeneration.from_pretrained("/Users/yaelbatat/Desktop/pythonProject/ANLP/anlpProject/anlp-project/models/flan-t5-large-cmv-debate-lora")  # Update this
+    tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-large")
     return {
         "baseline": baseline_model,
         "fine_tuned": fine_tuned_model,
