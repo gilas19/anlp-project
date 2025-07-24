@@ -1,280 +1,393 @@
-#!/usr/bin/env python3
-"""
-Main experiment runner for comparing baseline and fine-tuned models
-"""
-"""
-python evaluation_runner.py --config configs/baseline/config_debate.yaml
-python evaluation_runner.py --config configs/baseline/config_dialogs_1.yaml
-python evaluation_runner.py --config configs/baseline/config_dialogs_2.yaml
-"""
-
-import yaml
 import json
 import time
-import torch
-import pandas as pd
-from typing import Dict, List, Tuple
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-from peft import PeftModel
-from fever_loader import FEVERDataLoader
-from datetime import datetime
-import logging
-import os
-import numpy as np
+from transformers import T5ForConditionalGeneration, T5Tokenizer
+from datasets import load_dataset
+import jsonlines
 from tqdm import tqdm
+import os
+from typing import List, Dict, Any
+import os
+from pathlib import Path
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# Get the parent directory of src (anlp-project)
+PROJECT_ROOT = Path(__file__).parent.parent
+
+# Define paths relative to project root
+CONFIG_DIR = PROJECT_ROOT / "configs"
+OUTPUT_DIR = PROJECT_ROOT / "results"
+PLOTS_DIR = PROJECT_ROOT / "analysis" / "plots"
+os.makedirs(CONFIG_DIR, exist_ok=True)
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(PLOTS_DIR, exist_ok=True)
 
 
-class ModelEvaluator:
-    """Handles model evaluation across different configurations"""
+def load_fever_data():
+    """Load and preprocess FEVER dataset, extracting clean evidence text only"""
+    try:
+        dataset = load_dataset("copenlu/fever_gold_evidence")
+    except Exception as e:
+        print(f"Error loading dataset: {e}")
+        return []
 
-    def __init__(self, config_path: str):
-        self.config = self.load_config(config_path)
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.tokenizer = None
-        self.model = None
-        self.fever_loader = FEVERDataLoader()
+    # Check available splits
+    print(f"Available splits: {list(dataset.keys())}")
 
-    def load_config(self, config_path: str) -> Dict:
-        """Load experiment configuration"""
-        with open(config_path, 'r') as f:
-            return yaml.safe_load(f)
+    claims = []
+    for split in ['train', 'validation', 'test']:
+        if split not in dataset:
+            print(f"Warning: Split {split} not found in dataset")
+            continue
 
-    def load_model(self):
-        """Load either baseline or fine-tuned model"""
-        model_name = self.config['model']['name']
+        for item in dataset[split]:
+            # Handle label
+            label = item.get('gold_label') or item.get('label')
+            if label is None:
+                print(f"Warning: No label found for item {item.get('id')}")
+                continue
 
-        logger.info(f"Loading {self.config['model']['type']} model: {model_name}")
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+            # Process evidence - extract only text
+            raw_evidence = item.get("evidence", [])
+            clean_evidence = []
 
-        if self.config['model']['type'] == 'baseline':
-            self.model = AutoModelForSeq2SeqLM.from_pretrained(
-                model_name,
-                torch_dtype=torch.float16 if self.device == 'cuda' else torch.float32,
-                device_map="auto" if self.device == 'cuda' else None
-            )
-        else:  # fine-tuned
-            base_model = AutoModelForSeq2SeqLM.from_pretrained(
-                model_name,
-                torch_dtype=torch.float16 if self.device == 'cuda' else torch.float32,
-                device_map="auto" if self.device == 'cuda' else None
-            )
-            self.model = PeftModel.from_pretrained(
-                base_model,
-                "/content/anlp-project/models/flan-t5-large-cmv-debate-lora"
-            )
+            if isinstance(raw_evidence, list):
+                for e in raw_evidence:
+                    if isinstance(e, list) and len(e) >= 3:  # [title, line_num, text] format
+                        clean_evidence.append(e[2])  # Keep only the text
+                    elif isinstance(e, str):  # Handle unexpected string format
+                        clean_evidence.append(e)
 
-        self.model.eval()
+            # Join all evidence texts with spaces
+            evidence_text = ' '.join(clean_evidence) if clean_evidence else "No evidence provided"
 
-    def generate_response(self, prompt: str) -> Tuple[str, float]:
-        """Generate response with timing measurement"""
-        inputs = self.tokenizer(prompt, return_tensors="pt", max_length=512, truncation=True).to(self.device)
-
-        start_time = time.time()
-        with torch.no_grad():
-            outputs = self.model.generate(
-                input_ids=inputs.input_ids,
-                attention_mask=inputs.attention_mask,
-                max_length=256,
-                do_sample=True,
-                temperature=0.7,
-                top_p=0.9,
-                num_beams=3,
-                pad_token_id=self.tokenizer.pad_token_id
-            )
-        response_time = time.time() - start_time
-
-        response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        response_length = len(response.split())
-
-        return response, response_time, response_length
-
-    def simulate_debate(self, claim: str, evidence: str, num_rounds: int = 3) -> Dict:
-        """Simulate debate between two agents"""
-        debate_history = []
-        metrics = {
-            'response_times': [],
-            'response_lengths': [],
-            'agent_1_responses': 0,
-            'agent_2_responses': 0
-        }
-
-        # Initial prompts for both agents
-        agent1_prompt = f"""
-Claim: "{claim}"
-Evidence: "{evidence}"
-
-Your role is to SUPPORT the claim using the evidence. 
-Reference specific points where appropriate, and try to persuade a neutral judge.
-Limit your response to 3 sentences.
-"""
-        agent2_prompt = f"""
-Claim: "{claim}"
-Evidence: "{evidence}"
-
-Your role is to REFUTE the claim using the evidence. 
-Reference specific points where appropriate, and try to persuade a neutral judge.
-Limit your response to 3 sentences.
-"""
-
-        # Alternate between agents
-        current_agent = 1 if self.config['debate'].get('initiator', 1) == 1 else 2
-
-        for round_num in range(num_rounds):
-            if current_agent == 1:
-                prompt = agent1_prompt
-                if debate_history:
-                    prompt += "\nPrevious arguments:\n" + "\n".join(debate_history[-2:])
-            else:
-                prompt = agent2_prompt
-                if debate_history:
-                    prompt += "\nPrevious arguments:\n" + "\n".join(debate_history[-2:])
-
-            response, time_taken, length = self.generate_response(prompt)
-            debate_history.append(f"Agent {current_agent}: {response}")
-
-            # Record metrics
-            metrics['response_times'].append(time_taken)
-            metrics['response_lengths'].append(length)
-            if current_agent == 1:
-                metrics['agent_1_responses'] += 1
-            else:
-                metrics['agent_2_responses'] += 1
-
-            # Switch agents
-            current_agent = 2 if current_agent == 1 else 1
-
-        return {
-            'history': debate_history,
-            'metrics': metrics,
-            'final_response': debate_history[-1]
-        }
-
-    def evaluate_claim(self, claim: str, evidence: str, label: str) -> Dict:
-        """Evaluate a single claim with configured parameters"""
-        result = {
-            'claim': claim,
-            'evidence': evidence,
-            'label': label,
-            'config': self.config['experiment'],
-            'model_type': self.config['model']['type']
-        }
-
-        if self.config['experiment']['dimension'] == 'debate':
-            # Debate mode evaluation
-            debate_result = self.simulate_debate(
-                claim,
-                evidence,
-                num_rounds=self.config['debate']['rounds']
-            )
-
-            result.update({
-                'method': 'debate',
-                'num_rounds': self.config['debate']['rounds'],
-                'initiator': self.config['debate'].get('initiator', 1),
-                'debate_history': debate_result['history'],
-                'response': debate_result['final_response'],
-                'response_time': np.mean(debate_result['metrics']['response_times']),
-                'response_length': np.mean(debate_result['metrics']['response_lengths']),
-                'agent_1_responses': debate_result['metrics']['agent_1_responses'],
-                'agent_2_responses': debate_result['metrics']['agent_2_responses']
-            })
-        else:
-            # Direct prediction mode
-            prompt = f"""
-Claim: "{claim}"
-Evidence: "{evidence}"
-
-Based on the evidence, does the claim SUPPORT, REFUTE, or is there NOT ENOUGH INFO?
-Answer with just one of: SUPPORTS, REFUTES, NOT ENOUGH INFO
-"""
-            response, time_taken, length = self.generate_response(prompt)
-
-            result.update({
-                'method': 'direct',
-                'response': response,
-                'response_time': time_taken,
-                'response_length': length
+            claims.append({
+                "id": str(item.get("id", "")),
+                "claim": item.get("claim", ""),
+                "gold_label": str(label).upper().strip(),
+                "evidence": evidence_text[:1000]  # Truncate long evidence
             })
 
-        # Determine accuracy
-        predicted_label = result['response'].strip().upper()
-        if any(x in predicted_label for x in ['SUPPORTS', 'SUPPORT']):
-            predicted_label = 'SUPPORTS'
-        elif any(x in predicted_label for x in ['REFUTES', 'REFUTE']):
-            predicted_label = 'REFUTES'
+    if not claims:
+        raise ValueError("No valid claims were loaded from the dataset")
+
+    print(f"Successfully loaded {len(claims)} claims with clean evidence text")
+    return claims
+def load_models():
+    """Load baseline and fine-tuned models"""
+    baseline_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-small")
+    fine_tuned_model = T5ForConditionalGeneration.from_pretrained("/Users/yaelbatat/Desktop/pythonProject/ANLP/anlpProject/anlp-project/models/flan-t5-small-cmv-debate-lora")  # Update this
+    tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-small")
+    return {
+        "baseline": baseline_model,
+        "fine_tuned": fine_tuned_model,
+        "tokenizer": tokenizer
+    }
+
+
+def generate_response(model, tokenizer, prompt: str) -> Dict[str, Any]:
+    """Generate a response from the model with proper length handling"""
+    start_time = time.time()
+
+    # Tokenize with truncation but without padding
+    inputs = tokenizer(
+        prompt,
+        return_tensors="pt",
+        truncation=True,
+        max_length=512
+    )
+
+    # Move input_ids tensor to device
+    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=200,
+        do_sample=True,
+        temperature=0.9,
+        top_p=0.95,
+        repetition_penalty=1.2
+    )
+
+    text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    duration = time.time() - start_time
+    length = len(tokenizer.tokenize(text))
+
+    return {
+        "text": text,
+        "length": length,
+        "time": duration
+    }
+
+
+def standardize_prediction(text: str) -> str:
+    """Force prediction into one of the three valid categories"""
+    text = text.strip().upper()
+    if "SUPPORT" in text:
+        return "SUPPORTS"
+    elif "REFUTE" in text:
+        return "REFUTES"
+    elif "NOT ENOUGH" in text or "ENOUGH INFO" in text:
+        return "NOT ENOUGH INFO"
+    return "NOT ENOUGH INFO"  # Default fallback
+
+
+def run_no_debate(config: Dict[str, Any], models: Dict[str, Any], claims: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Run the no-debate configuration with evidence and strict output formatting"""
+    model = models[config["model"]]
+    tokenizer = models["tokenizer"]
+    results = []
+
+    for claim in tqdm(claims, desc=f"Running {config['config_id']}"):
+        # Prepare evidence snippet (first 500 chars if available)
+        evidence = claim.get("evidence", "")
+        evidence_snippet = evidence[:500] if evidence else "No evidence provided"
+
+        # Create prompt with evidence
+        prompt = (
+            f"Fact Verification Task:\n"
+            f"Claim: {claim['claim']}\n"
+            f"Available Evidence: {evidence_snippet}\n\n"
+            f"Based on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\n"
+            f"Answer:"
+        )
+
+        # Generate and standardize response
+        response = generate_response(model, tokenizer, prompt)
+        pred = standardize_prediction(response["text"])
+
+        # Build result record
+        record = {
+            "claim_id": claim["id"],
+            "claim": claim["claim"],
+            "gold_label": claim["gold_label"],
+            "model": config["model"],
+            "with_debate": False,
+            "initiator": None,
+            "num_turns": 0,
+            "evidence_used": evidence_snippet,
+            "final_prediction": pred,
+            "accuracy": pred == claim["gold_label"],
+            "avg_length": response["length"],
+            "avg_time": response["time"],
+            "dialogue": [],
+            "prompt_used": prompt  # For debugging
+        }
+        results.append(record)
+
+    return results
+
+def create_agent_prompt(agent, claim, evidence, history):
+    """Creates a structured prompt for debate agents to either support or refute a claim"""
+
+    role = "support" if agent == "A" else "refute"
+    opponent = "B" if agent == "A" else "A"
+
+    instructions = f"""Your role is to {role} the claim using the evidence and respond thoughtfully to your opponent's arguments.
+Reference specific points made by Agent {opponent} where appropriate, and try to persuade a neutral judge.
+Limit your response to 3 sentences."""
+
+    prompt = f"""Claim: "{claim}"
+Evidence: "{evidence}"
+
+{instructions}
+
+Debate so far:
+"""
+    for i, (speaker, utterance) in enumerate(history):
+        prompt += f"Agent {speaker}: {utterance}\n"
+
+    prompt += f"Agent {agent}:"
+    return prompt
+# Example conversion from string to list of (speaker, utterance)
+def parse_transcript(transcript_str):
+    history = []
+    for line in transcript_str.strip().split("\n"):
+        if line.startswith("Agent A:"):
+            history.append(("A", line[len("Agent A:"):].strip()))
+        elif line.startswith("Agent B:"):
+            history.append(("B", line[len("Agent B:"):].strip()))
+    return history
+def create_final_judgment_prompt(claim, evidence, history):
+    """Creates a prompt for final judgment on whether evidence supports the claim"""
+
+    prompt = f"""Claim: "{claim}"
+Evidence: "{evidence}"
+
+Here is a debate about whether the evidence supports the claim:\n"""
+
+    for speaker, utterance in history:
+        prompt += f"Agent {speaker}: {utterance}\n"
+
+    prompt += """\nFinal Task: Based on the above, classify the claim as one of the following:
+- SUPPORTS
+- REFUTES
+- NOT ENOUGH INFO
+
+Answer:"""
+    return prompt
+def run_debate(config: Dict[str, Any], models: Dict[str, Any], claims: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Run the debate configuration using create_agent_prompt"""
+    model = models[config["model"]]
+    tokenizer = models["tokenizer"]
+    results = []
+
+    for claim in tqdm(claims, desc=f"Running {config['config_id']}"):
+        evidence = claim.get("evidence", "")
+        evidence_snippet = evidence[:500] if evidence else "No evidence provided"
+
+        dialogue = []
+        history = []  # history is a list of (agent, text)
+        current_agent = "A" if config["initiator"] == "agent1" else "B"
+        total_length = 0
+        total_time = 0
+
+        for turn in range(config["num_turns"] * 2):
+            prompt = create_agent_prompt(current_agent, claim['claim'], evidence_snippet, history)
+            response = generate_response(model, tokenizer, prompt)
+
+            stance = "SUPPORTS" if current_agent == "A" else "REFUTES"
+            prev_agent = "B" if current_agent == "A" else "A"
+
+            dialogue.append({
+                "turn": turn + 1,
+                "agent": f"agent1" if current_agent == "A" else "agent2",
+                "stance": stance,
+                "reply_to": "claim" if turn == 0 else f"agent{2 if current_agent == 'A' else 1}",
+                "text": response["text"],
+                "length": response["length"],
+                "time": response["time"],
+                "prompt_used": prompt
+            })
+
+            history.append((current_agent, response["text"]))
+            current_agent = prev_agent
+            total_length += response["length"]
+            total_time += response["time"]
+
+        # Build debate transcript (Agent A/B format)
+        debate_transcript = "\n".join(
+            f"Turn {d['turn']} ({d['agent']} - {d['stance']}): {d['text']}"
+            for d in dialogue
+        )
+
+        history = parse_transcript(debate_transcript)
+        final_prompt = create_final_judgment_prompt(claim["claim"], evidence_snippet, history)
+
+        final_response = generate_response(model, tokenizer, final_prompt)
+        pred = standardize_prediction(final_response["text"])
+
+        record = {
+            "claim_id": claim["id"],
+            "claim": claim["claim"],
+            "gold_label": claim["gold_label"],
+            "model": config["model"],
+            "with_debate": True,
+            "initiator": config["initiator"],
+            "num_turns": config["num_turns"],
+            "evidence_used": evidence_snippet,
+            "final_prediction": pred,
+            "accuracy": pred == claim["gold_label"],
+            "avg_length": total_length / (config["num_turns"] * 2),
+            "avg_time": total_time / (config["num_turns"] * 2),
+            "dialogue": dialogue,
+            "final_prompt_used": final_prompt
+        }
+        results.append(record)
+
+    return results
+def save_results(results: List[Dict[str, Any]], config: Dict[str, Any]):
+    """Save results to JSON file"""
+    model_dir = "baseline" if config["model"] == "baseline" else "fine_tuned"
+    os.makedirs(OUTPUT_DIR / model_dir, exist_ok=True)
+
+    filename = OUTPUT_DIR / model_dir / f"{config['config_id']}.json"
+    with open(filename, 'w') as f:
+        json.dump({
+            "config": config,
+            "results": results,
+            "stats": {
+                "accuracy": sum(r["accuracy"] for r in results) / len(results),
+                "avg_length": sum(r["avg_length"] for r in results) / len(results),
+                "avg_time": sum(r["avg_time"] for r in results) / len(results)
+            }
+        }, f, indent=2)
+
+def generate_configurations():
+    """Generate all experiment configurations with organized directory structure"""
+    configs = []
+
+    # Create model-specific directories
+    os.makedirs(CONFIG_DIR / "baseline", exist_ok=True)
+    os.makedirs(CONFIG_DIR / "fine_tuned", exist_ok=True)
+
+    # No-debate configurations
+    baseline_no_debate = {
+        "config_id": "no_debate",
+        "model": "baseline",
+        "with_debate": False,
+        "initiator": None,
+        "num_turns": 0
+    }
+    configs.append(baseline_no_debate)
+
+    fine_tuned_no_debate = {
+        "config_id": "no_debate",
+        "model": "fine_tuned",
+        "with_debate": False,
+        "initiator": None,
+        "num_turns": 0
+    }
+    configs.append(fine_tuned_no_debate)
+
+    # Debate configurations
+    debate_configs = [
+        {"num_turns": 1, "initiator": "agent1"},
+        {"num_turns": 1, "initiator": "agent2"},
+        {"num_turns": 2, "initiator": "agent1"},
+        {"num_turns": 2, "initiator": "agent2"},
+        {"num_turns": 6, "initiator": "agent1"},
+        {"num_turns": 6, "initiator": "agent2"},
+        {"num_turns": 12, "initiator": "agent1"},
+        {"num_turns": 12, "initiator": "agent2"},
+    ]
+
+    for model in ["baseline", "fine_tuned"]:
+        for debate_config in debate_configs:
+            config = {
+                "config_id": f"{debate_config['initiator']}_{debate_config['num_turns']}turns",
+                "model": model,
+                "with_debate": True,
+                "initiator": debate_config["initiator"],
+                "num_turns": debate_config["num_turns"]
+            }
+            configs.append(config)
+
+    for config in configs:
+        model_dir = "baseline" if config["model"] == "baseline" else "fine_tuned"
+        config_path = CONFIG_DIR / model_dir / f"{config['config_id']}.json"
+        with open(config_path, "w") as f:
+            json.dump(config, f, indent=2)
+
+    return configs
+
+
+def main():
+    """Main execution function"""
+    # Load data and models
+    claims = load_fever_data()
+    models = load_models()
+    configs = generate_configurations()
+
+    # For testing, use a subset of claims
+    claims = claims[:100]  # Remove this line to use full dataset
+
+    # Run all configurations
+    for config in configs:
+        if config["with_debate"]:
+            results = run_debate(config, models, claims)
         else:
-            predicted_label = 'NOT ENOUGH INFO'
-
-        result['predicted_label'] = predicted_label
-        result['correct'] = predicted_label == label
-
-        return result
-
-    def run_evaluation(self):
-        """Run full evaluation based on config"""
-        self.load_model()
-
-        # Load evaluation data
-        eval_data = self.fever_loader.get_evaluation_data(
-            split='validation',
-            sample_size=self.config['data'].get('sample_size', 50)
-        )
-
-        if eval_data is None:
-            logger.error("Failed to load evaluation data")
-            return None
-
-        results = []
-        for _, row in tqdm(eval_data.iterrows(), total=len(eval_data)):
-            result = self.evaluate_claim(row['claim'], row['evidence_text'], row['label'])
-            results.append(result)
-
-        # Save results
-        output_dir = self.config['output']['dir']
-        os.makedirs(output_dir, exist_ok=True)
-
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = os.path.join(
-            output_dir,
-            f"{self.config['output']['name']}_{timestamp}.json"
-        )
-
-        with open(output_file, 'w') as f:
-            json.dump(results, f, indent=2)
-
-        logger.info(f"Saved results to {output_file}")
-
-        # Calculate and log summary metrics
-        df = pd.DataFrame(results)
-        accuracy = df['correct'].mean()
-        avg_time = df['response_time'].mean()
-        avg_length = df['response_length'].mean()
-
-        logger.info("\n=== Summary Metrics ===")
-        logger.info(f"Accuracy: {accuracy:.2f}")
-        logger.info(f"Avg Response Time: {avg_time:.2f}s")
-        logger.info(f"Avg Response Length: {avg_length:.2f} tokens")
-
-        if 'method' in df.columns:
-            for method in df['method'].unique():
-                method_df = df[df['method'] == method]
-                logger.info(f"\nMethod: {method}")
-                logger.info(f"Accuracy: {method_df['correct'].mean():.2f}")
-                logger.info(f"Avg Time: {method_df['response_time'].mean():.2f}s")
-                logger.info(f"Avg Length: {method_df['response_length'].mean():.2f} tokens")
-
-        return results
+            results = run_no_debate(config, models, claims)
+        save_results(results, config)  # Pass the full config now
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, required=True, help="Path to config file")
-    args = parser.parse_args()
-
-    evaluator = ModelEvaluator(args.config)
-    evaluator.run_evaluation()
+    main()
