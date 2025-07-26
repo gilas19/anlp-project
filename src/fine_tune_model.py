@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Fine-tuning script for google/flan-t5-large on CMV conversation data
 for generating better debate responses using LoRA (Low-Rank Adaptation)
@@ -16,9 +15,7 @@ import os
 import re
 import yaml
 import argparse
-import os
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-os.chdir(PROJECT_ROOT)
+import wandb
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -277,11 +274,7 @@ def fine_tune_model_with_lora(config: Dict):
     # Load tokenizer and model
     logger.info(f"Loading model: {model_name}")
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        device_map="auto" if torch.cuda.is_available() else None,
-    )
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
     # Add pad token if it doesn't exist
     if tokenizer.pad_token is None:
@@ -327,7 +320,7 @@ def fine_tune_model_with_lora(config: Dict):
         save_steps=config["evaluation"]["save_steps"],
         save_total_limit=config["evaluation"]["save_total_limit"],
         learning_rate=learning_rate,
-        fp16=torch.cuda.is_available(),
+        bf16=torch.cuda.is_available(),
         dataloader_pin_memory=False,
         remove_unused_columns=False,
         load_best_model_at_end=True,
@@ -366,12 +359,7 @@ def load_lora_model(base_model_name: str, lora_path: str):
     """Load base model with LoRA adapter"""
     logger.info(f"Loading base model: {base_model_name}")
     tokenizer = AutoTokenizer.from_pretrained(base_model_name)
-    model = AutoModelForSeq2SeqLM.from_pretrained(
-        base_model_name,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        device_map="auto" if torch.cuda.is_available() else None,
-        # device_map="auto" if torch.cuda.is_available() else "mps",
-    )
+    model = AutoModelForSeq2SeqLM.from_pretrained(base_model_name)
 
     logger.info(f"Loading LoRA adapter from: {lora_path}")
     model = PeftModel.from_pretrained(model, lora_path)
@@ -379,7 +367,7 @@ def load_lora_model(base_model_name: str, lora_path: str):
     return model, tokenizer
 
 
-def load_config(config_path: str = "default.yaml") -> Dict:
+def load_config(config_path: str) -> Dict:
     """Load configuration from YAML file"""
     config_path = os.path.join("config", "finetune", config_path)
     with open(config_path, "r") as f:
@@ -389,11 +377,13 @@ def load_config(config_path: str = "default.yaml") -> Dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Fine-tune FLAN-T5-Large with LoRA on CMV debate data")
-    parser.add_argument("--config", type=str, default="default.yaml", help="Path to YAML config file")
+    parser.add_argument("--config", type=str, help="Path to YAML config file")
     args = parser.parse_args()
 
     logger.info(f"Loading configuration from: {args.config}")
     config = load_config(args.config)
+
+    wandb.init(project="debate-response-generation", config=config, name=f"lora-finetune-{config['model']['name']}", reinit=True)
 
     # Create output directory
     os.makedirs(config["model"]["output_dir"], exist_ok=True)
@@ -406,6 +396,8 @@ def main():
 
     logger.info("LoRA fine-tuning completed!")
     logger.info(f"Evaluation results: {eval_results}")
+
+    wandb.finish()
 
 
 if __name__ == "__main__":
