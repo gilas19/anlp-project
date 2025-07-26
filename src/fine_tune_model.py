@@ -16,7 +16,8 @@ import os
 import re
 import yaml
 import argparse
-import os
+import wandb
+
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 os.chdir(PROJECT_ROOT)
 
@@ -379,7 +380,7 @@ def load_lora_model(base_model_name: str, lora_path: str):
     return model, tokenizer
 
 
-def load_config(config_path: str = "default.yaml") -> Dict:
+def load_config(config_path: str) -> Dict:
     """Load configuration from YAML file"""
     config_path = os.path.join("config", "finetune", config_path)
     with open(config_path, "r") as f:
@@ -389,11 +390,13 @@ def load_config(config_path: str = "default.yaml") -> Dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Fine-tune FLAN-T5-Large with LoRA on CMV debate data")
-    parser.add_argument("--config", type=str, default="default.yaml", help="Path to YAML config file")
-    args = parser.parse_args()
+    parser.add_argument("--config", type=str, help="Path to YAML config file")
+    args = parser.parse_args()    
 
     logger.info(f"Loading configuration from: {args.config}")
     config = load_config(args.config)
+
+    wandb.init(project="debate-response-generation", config=config, name=f"lora-finetune-{config['model']['name']}", reinit=True)
 
     # Create output directory
     os.makedirs(config["model"]["output_dir"], exist_ok=True)
@@ -406,6 +409,8 @@ def main():
 
     logger.info("LoRA fine-tuning completed!")
     logger.info(f"Evaluation results: {eval_results}")
+
+    wandb.finish()
 
 
 if __name__ == "__main__":
