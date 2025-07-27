@@ -71,17 +71,40 @@ def load_fever_data():
 
     print(f"Successfully loaded {len(claims)} claims with clean evidence text")
     return claims
+
+
+from peft import PeftModel, PeftConfig
+
+
 def load_models():
-    """Load baseline and fine-tuned models"""
+    """Load baseline and fine-tuned models with proper LoRA handling"""
+    # Load baseline model
     baseline_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-large")
-    fine_tuned_model = T5ForConditionalGeneration.from_pretrained("/Users/yaelbatat/Desktop/pythonProject/ANLP/anlpProject/anlp-project/models/flan-t5-large-cmv-debate-lora")  # Update this
     tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-large")
+
+    # Load fine-tuned model (LoRA)
+    try:
+        # First load the base model
+        base_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-large")
+
+        # Then load the LoRA adapter
+        peft_model_id = "/Users/yaelbatat/Desktop/pythonProject/ANLP/anlpProject/anlp-project/models/flan-t5-large-cmv-debate-lora"  # Relative path
+        fine_tuned_model = PeftModel.from_pretrained(base_model, peft_model_id)
+
+        # Merge adapter for better inference performance
+        fine_tuned_model = fine_tuned_model.merge_and_unload()
+
+        print("Successfully loaded fine-tuned LoRA model")
+    except Exception as e:
+        print(f"Error loading fine-tuned model: {e}")
+        # Fallback to baseline if fine-tuned fails
+        fine_tuned_model = baseline_model
+
     return {
         "baseline": baseline_model,
         "fine_tuned": fine_tuned_model,
         "tokenizer": tokenizer
     }
-
 
 def generate_response(model, tokenizer, prompt: str) -> Dict[str, Any]:
     """Generate a response from the model with proper length handling"""
@@ -343,12 +366,13 @@ def generate_configurations():
         {"num_turns": 1, "initiator": "agent2"},
         {"num_turns": 2, "initiator": "agent1"},
         {"num_turns": 2, "initiator": "agent2"},
+        {"num_turns": 4, "initiator": "agent1"},
+        {"num_turns": 4, "initiator": "agent2"},
         {"num_turns": 6, "initiator": "agent1"},
-        {"num_turns": 6, "initiator": "agent2"},
-        {"num_turns": 12, "initiator": "agent1"},
-        {"num_turns": 12, "initiator": "agent2"},
-    ]
+        {"num_turns": 6, "initiator": "agent2"}
 
+    ]
+    #
     for model in ["baseline", "fine_tuned"]:
         for debate_config in debate_configs:
             config = {
