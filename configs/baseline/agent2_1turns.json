@@ -1,0 +1,7 @@
+{
+  "config_id": "agent2_1turns",
+  "model": "baseline",
+  "with_debate": true,
+  "initiator": "agent2",
+  "num_turns": 1
+}

@@ -1,0 +1,7 @@
+{
+  "config_id": "no_debate",
+  "model": "baseline",
+  "with_debate": false,
+  "initiator": null,
+  "num_turns": 0
+}
