@@ -18,8 +18,8 @@
       "evidence_used": "The number of new cases per year ranges from 1.2 -- 3.4 per 1,000 among healthy individuals to 3.9 -- 11.8 per 1,000 among those older than 65 years of age .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 2,
-      "avg_time": 0.8282289505004883,
+      "avg_length": 0,
+      "avg_time": 0.6084480285644531,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The number of new cases of shingles per year extends from 1.2\u20133.4 per 1,000 among healthy individuals.\nAvailable Evidence: The number of new cases per year ranges from 1.2 -- 3.4 per 1,000 among healthy individuals to 3.9 -- 11.8 per 1,000 among those older than 65 years of age .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -35,7 +35,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4735531806945801,
+      "avg_time": 0.5144128799438477,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Gabrielle Union was in a movie.\nAvailable Evidence: She co-starred in film The Birth of a Nation -LRB- 2016 -RRB- , and next appeared in Almost Christmas -LRB- 2016 -RRB- and Sleepless -LRB- 2017 -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -51,7 +51,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4236459732055664,
+      "avg_time": 0.39290881156921387,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Eleveneleven was founded by a chef.\nAvailable Evidence: eleveneleven is a record label founded in 2010 by Mike Hamlin , Ellen DeGeneres and her production company , A Very Good Production , in association with longtime affiliate Warner Bros. .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -66,8 +66,8 @@
       "evidence_used": "MacFarlane served as executive producer of Cosmos : A Spacetime Odyssey , an update of the 1980s Carl Sagan -- hosted Cosmos series , hosted by Neil deGrasse Tyson .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 6,
-      "avg_time": 0.8596107959747314,
+      "avg_length": 1,
+      "avg_time": 0.3974630832672119,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Cosmos: A Spacetime Odyssey secured studio support thanks to Seth MacFarlane.\nAvailable Evidence: MacFarlane served as executive producer of Cosmos : A Spacetime Odyssey , an update of the 1980s Carl Sagan -- hosted Cosmos series , hosted by Neil deGrasse Tyson .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -82,8 +82,8 @@
       "evidence_used": "It was filmed from November 2010 , with Hilton 's court-ordered community service stemming from her arrest in Las Vegas , Nevada for cocaine possession , to February 2011 , with her birthday party , the series co-starred Brooke Mueller , Lexi Dreyfus , Jennifer Rovero , Allison Melnick , Brooke Brinson -LRB- daughter of Kim Richards -RRB- , Hilton 's then-boyfriend Cy Waits , and Kathy Hilton .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 1,
-      "avg_time": 0.5278637409210205,
+      "avg_length": 3,
+      "avg_time": 0.6508970260620117,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The World According to Paris starred Hilton's then-girlfriend.\nAvailable Evidence: It was filmed from November 2010 , with Hilton 's court-ordered community service stemming from her arrest in Las Vegas , Nevada for cocaine possession , to February 2011 , with her birthday party , the series co-starred Brooke Mueller , Lexi Dreyfus , Jennifer Rovero , Allison Melnick , Brooke Brinson -LRB- daughter of Kim Richards -RRB- , Hilton 's then-boyfriend Cy Waits , and Kathy Hilton .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -99,7 +99,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.43392205238342285,
+      "avg_time": 0.39395809173583984,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Germanic peoples are also called Gothic.\nAvailable Evidence: The Germanic peoples -LRB- also called Teutonic , Suebian , or Gothic in older literature -RRB- are an Indo-European ethno-linguistic group of Northern European origin .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -115,7 +115,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.39106106758117676,
+      "avg_time": 0.35825514793395996,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Margot Kidder is a person.\nAvailable Evidence: In 2005 , Kidder became a naturalized U.S. citizen .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -131,7 +131,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4373788833618164,
+      "avg_time": 0.39771294593811035,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Chokher Bali was nominated for a Golden Leopard in 2003.\nAvailable Evidence: Chokher Bali won the National Film Award for Best Feature Film in Bengali and was nominated for the Golden Leopard -LRB- Best Film -RRB- award at the Locarno International Film Festival in 2003 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -146,8 +146,8 @@
       "evidence_used": "Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive olympics -LRB- 2008 , 2012 and 2016 -RRB- , a feat referred to as the `` triple double . ''",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 10,
-      "avg_time": 1.1873130798339844,
+      "avg_length": 1,
+      "avg_time": 0.40333104133605957,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Usain Bolt won at the Olympics.\nAvailable Evidence: Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive olympics -LRB- 2008 , 2012 and 2016 -RRB- , a feat referred to as the `` triple double . ''\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -163,7 +163,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5297470092773438,
+      "avg_time": 0.4829268455505371,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The industry that the company The New York Times is part of is declining.\nAvailable Evidence: The New York Times -LRB- sometimes abbreviated NYT and The Times -RRB- is an American daily newspaper , founded and continuously published in New York City since September 18 , 1851 , by The New York Times Company . The late 2000s -- early 2010s global recession , combined with the rapid growth of free web-based alternatives , has helped cause a decline in advertising and circulation , as many papers had to retrench operations to stanch the losses .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -176,10 +176,10 @@
       "initiator": null,
       "num_turns": 0,
       "evidence_used": "A double album , it was released posthumously following his death on March 9 , 1997 . Marshall Bruce Mathers III -LRB- born October 17 , 1972 -RRB- , known professionally as Eminem -LRB- often stylized as EMIN\u018eM -RRB- , is an American rapper , record producer , and actor .",
-      "final_prediction": "NOT ENOUGH INFO",
+      "final_prediction": "SUPPORTS",
       "accuracy": false,
-      "avg_length": 1,
-      "avg_time": 0.4843790531158447,
+      "avg_length": 4,
+      "avg_time": 0.6561338901519775,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Life After Death is by Eminem.\nAvailable Evidence: A double album , it was released posthumously following his death on March 9 , 1997 . Marshall Bruce Mathers III -LRB- born October 17 , 1972 -RRB- , known professionally as Eminem -LRB- often stylized as EMIN\u018eM -RRB- , is an American rapper , record producer , and actor .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -194,8 +194,8 @@
       "evidence_used": "They have been nominated for thirteen Academy Awards together , and individually for one award each , winning Best Original Screenplay for Fargo and Best Picture , Best Director and Best Adapted Screenplay for No Country for Old Men . Fargo premiered at the 1996 Cannes Film Festival , where Joel Coen won the festival 's Prix de la mise en sc\u00e8ne -LRB- Best Director Award -RRB- and the film was nominated for the Palme d'Or .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 11,
-      "avg_time": 1.442831039428711,
+      "avg_length": 1,
+      "avg_time": 0.4794962406158447,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Coen brothers were the directors of Fargo.\nAvailable Evidence: They have been nominated for thirteen Academy Awards together , and individually for one award each , winning Best Original Screenplay for Fargo and Best Picture , Best Director and Best Adapted Screenplay for No Country for Old Men . Fargo premiered at the 1996 Cannes Film Festival , where Joel Coen won the festival 's Prix de la mise en sc\u00e8ne -LRB- Best Director Award -RRB- and the film was nominated for the Palme d'Or .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -211,7 +211,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 6,
-      "avg_time": 1.6219639778137207,
+      "avg_time": 0.783656120300293,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Bob Arum is from New York.\nAvailable Evidence: Serrano then awaited a relatively long time to make a decision as far as to which promoter he would sign with as a professional fighter , but he finally decided to sign with Bob Arum and Arum 's Top Rank company .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -227,7 +227,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 6,
-      "avg_time": 0.8718459606170654,
+      "avg_time": 0.777094841003418,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Lance Armstrong had a puppy.\nAvailable Evidence: L.A. Confidentiel : Les secrets de Lance Armstrong -LRB- L.A. Confidential : Lance Armstrong 's Secrets -RRB- is a book by sports journalist Pierre Ballester and The Sunday Times sports correspondent David Walsh .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -243,7 +243,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 6,
-      "avg_time": 0.8485119342803955,
+      "avg_time": 0.7812740802764893,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sparta won the Peloponnesian War at the great cost of five billion lives.\nAvailable Evidence: The Peloponnesian War -LRB- 431 -- 404 BC -RRB- was an ancient Greek war fought by Athens and its empire against the Peloponnesian League led by Sparta .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -258,8 +258,8 @@
       "evidence_used": "One of the most financially successful comedies of the early 1990s , grossing $ 231 million worldwide , the film was rated # 83 on Bravo 's The 100 Funniest Movies list .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 1,
-      "avg_time": 0.4221839904785156,
+      "avg_length": 6,
+      "avg_time": 0.7654569149017334,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sister Act grossed $231 million worldwide.\nAvailable Evidence: One of the most financially successful comedies of the early 1990s , grossing $ 231 million worldwide , the film was rated # 83 on Bravo 's The 100 Funniest Movies list .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -275,7 +275,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4005718231201172,
+      "avg_time": 0.35332393646240234,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tennis is not a sport.\nAvailable Evidence: Tennis is played by millions of recreational players and is also a popular worldwide spectator sport .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -291,7 +291,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.44537901878356934,
+      "avg_time": 0.3969588279724121,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: NSYNC was a vocal group that formed in 1998.\nAvailable Evidence: NSYNC -LRB- sometimes stylized as * NSYNC or 'N Sync -RRB- was an American boy band formed in Orlando , Florida in 1995 and launched in Germany by BMG Ariola Munich .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -307,7 +307,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.405501127243042,
+      "avg_time": 0.3681778907775879,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Kick-Ass is a horror film.\nAvailable Evidence: Kick-Ass is a 2010 British-American superhero black comedy film based on the comic book of the same name by Mark Millar and John Romita , Jr. .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -323,7 +323,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4415719509124756,
+      "avg_time": 0.39690303802490234,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Boeing 737s served the same markets that 757 airliners filled previously.\nAvailable Evidence: Many 737s serve markets previously filled by 707 , 727 , 757 , DC-9 , and MD-80 / MD-90 airliners , and the aircraft currently competes primarily with the Airbus A320 family .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -338,8 +338,8 @@
       "evidence_used": "Sindh is home to a large portion of Pakistan 's industrial sector and contains two of Pakistan 's commercial seaports -- Port Bin Qasim and the Karachi Port .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 1,
-      "avg_time": 0.4035210609436035,
+      "avg_length": 6,
+      "avg_time": 0.7512781620025635,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sindh borders Indian states and is in India.\nAvailable Evidence: Sindh is home to a large portion of Pakistan 's industrial sector and contains two of Pakistan 's commercial seaports -- Port Bin Qasim and the Karachi Port .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -354,8 +354,8 @@
       "evidence_used": "Chevene King - 70,424 -LRB- 8.82 % -RRB-",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 3,
-      "avg_time": 0.5612428188323975,
+      "avg_length": 17,
+      "avg_time": 1.581366777420044,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Jimmy Carter was a king.\nAvailable Evidence: Chevene King - 70,424 -LRB- 8.82 % -RRB-\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -371,7 +371,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.3948538303375244,
+      "avg_time": 0.36362481117248535,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sean Connery acted in a movie.\nAvailable Evidence: Connery was the first actor to portray the character James Bond in film , starring in seven Bond films between 1962 and 1983 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -386,8 +386,8 @@
       "evidence_used": "The album was supported by five singles : `` Hotline Bling '' -LRB- which was included as a bonus track -RRB- , `` One Dance '' featuring Wizkid and Kyla , `` Pop Style '' featuring The Throne -LRB- Jay Z and Kanye West -RRB- , `` Controlla '' and `` Too Good '' featuring Rihanna .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 1,
-      "avg_time": 0.5082588195800781,
+      "avg_length": 2,
+      "avg_time": 0.5504992008209229,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Views had the album \"Pop Style.\"\nAvailable Evidence: The album was supported by five singles : `` Hotline Bling '' -LRB- which was included as a bonus track -RRB- , `` One Dance '' featuring Wizkid and Kyla , `` Pop Style '' featuring The Throne -LRB- Jay Z and Kanye West -RRB- , `` Controlla '' and `` Too Good '' featuring Rihanna .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -403,7 +403,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.43297505378723145,
+      "avg_time": 0.6250202655792236,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Joan Cusack was in a film.\nAvailable Evidence: She is also known as the voice of Jessie in the Toy Story franchise . Jessie The Yodeling Cowgirl is a fictional character from the films Toy Story 2 and Toy Story 3 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -419,7 +419,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.40393877029418945,
+      "avg_time": 0.5772209167480469,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Gianluigi Buffon has won football titles.\nAvailable Evidence: After winning two more consecutive league titles in 2005 and 2006 , the club were later stripped of these titles and relegated due to their involvement in the 2006 Italian football scandal .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -434,8 +434,8 @@
       "evidence_used": "Several versions of the film have been released on videocassette , DVD , and Blu-ray including a director 's cut with extended footage previously unseen in North American cinemas .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 6,
-      "avg_time": 0.854841947555542,
+      "avg_length": 1,
+      "avg_time": 0.41872215270996094,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Basic Instinct only has a theatrical cut and a shorter cut for television viewing.\nAvailable Evidence: Several versions of the film have been released on videocassette , DVD , and Blu-ray including a director 's cut with extended footage previously unseen in North American cinemas .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -450,8 +450,8 @@
       "evidence_used": "Since its founding as a territory , settlement patterns in Indiana have reflected regional cultural segmentation present in the Eastern United States ; the state 's northernmost tier was settled primarily by people from New England and New York , Central Indiana by migrants from the Mid-Atlantic states and from adjacent Ohio , and Southern Indiana by settlers from the Southern states , particularly Kentucky and Tennessee .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 7,
-      "avg_time": 0.9753739833831787,
+      "avg_length": 1,
+      "avg_time": 0.43236875534057617,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Kazakhstan is in Central Asia and Eastern Indiana.\nAvailable Evidence: Since its founding as a territory , settlement patterns in Indiana have reflected regional cultural segmentation present in the Eastern United States ; the state 's northernmost tier was settled primarily by people from New England and New York , Central Indiana by migrants from the Mid-Atlantic states and from adjacent Ohio , and Southern Indiana by settlers from the Southern states , particularly Kentucky and Tennessee .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -467,7 +467,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.38568115234375,
+      "avg_time": 0.3537611961364746,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Aaron Carter is solely Canadian.\nAvailable Evidence: Born in Tampa , Florida , Carter began performing at age seven and released his self-titled debut album in 1997 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -483,7 +483,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.43817687034606934,
+      "avg_time": 0.3993380069732666,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: As of June 2014, Eminem had sold 45.1 million albums.\nAvailable Evidence: With US sales of 45.1 million albums and 42 million tracks as of June 2014 , Eminem is the second best-selling male artist of the Nielsen SoundScan era , the sixth best-selling artist in the United States and the best-selling hip-hop artist .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -499,7 +499,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4443850517272949,
+      "avg_time": 0.3971741199493408,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Nike had a revenue of over 24 billion dollars in 2012.\nAvailable Evidence: It is one of the world 's largest suppliers of athletic shoes and apparel and a major manufacturer of sports equipment , with revenue in excess of US$ 24.1 billion in its fiscal year 2012 -LRB- ending May 31 , 2012 -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -515,7 +515,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4011647701263428,
+      "avg_time": 0.36689114570617676,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Qatar is a language.\nAvailable Evidence: A strait in the Persian Gulf separates Qatar from the nearby island country of Bahrain , as well as sharing maritime borders with the United Arab Emirates and Iran .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -531,7 +531,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.43091797828674316,
+      "avg_time": 0.38816094398498535,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Quentin Tarantino makes movies.\nAvailable Evidence: Its popularity was boosted by his second film , Pulp Fiction -LRB- 1994 -RRB- , a black comedy crime film that was a major success both among critics and audiences .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -547,7 +547,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.4378180503845215,
+      "avg_time": 0.39767003059387207,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: A Wrinkle in Time was directed by Ava Duvernay.\nAvailable Evidence: This is the Life is a 2008 documentary film directed by Ava DuVernay , which chronicles the alternative hip hop movement that flourished in 1990s Los Angeles and its legendary center , the Good Life Cafe .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -563,7 +563,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.44811272621154785,
+      "avg_time": 0.3992321491241455,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tim Rice collaborated with members of ABBA and he was American.\nAvailable Evidence: Sir Timothy Miles Bindon `` Tim '' Rice -LRB- born 10 November 1944 -RRB- is an English author and Academy Award , Golden Globe Award , Tony Award , and Grammy Award-winning lyricist .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -579,7 +579,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 6,
-      "avg_time": 1.035085678100586,
+      "avg_time": 0.8944649696350098,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Ulysses S. Grant worked with George Washington.\nAvailable Evidence: Ulysses S. Grant -LRB- born Hiram Ulysses Grant ; April 27 , 1822 -- July 23 , 1885 -RRB- was the 18th President of the United States -LRB- 1869 -- 77 -RRB- . George Washington -LRB- -LSB- \u02c8d\u0292\u0254\u0279d\u0292_\u02c8w\u0252\u0283\u026a\u014bt\u0259n -RSB- -- , 1799 -RRB- was an American politician and soldier who served as the first President of the United States from 1789 to 1797 and was one of the Founding Fathers of the United States .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -595,7 +595,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5300910472869873,
+      "avg_time": 0.36820483207702637,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tokyo is Japan's seat of government.\nAvailable Evidence: Formerly known as Edo , it has been the de facto seat of government since 1603 when Shogun Tokugawa Ieyasu made the city his headquarters .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -611,7 +611,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5268988609313965,
+      "avg_time": 0.3630990982055664,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Formula (1980 film) is an American mystery film.\nAvailable Evidence: The Formula is a 1980 American mystery film directed by John G. Avildsen and released by Metro-Goldwyn-Mayer .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -627,7 +627,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.4714839458465576,
+      "avg_time": 0.35883092880249023,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Anne Bancroft was the winner of an Oscar.\nAvailable Evidence: She won both an Oscar for her work in the film , and a Tony for the same role in the play .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -643,7 +643,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4431641101837158,
+      "avg_time": 0.36630725860595703,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Houston is located in Southeast Texas.\nAvailable Evidence: Located in Southeast Texas near the Gulf of Mexico , it is the principal city of the Greater Houston metro area , which is the fifth-most populated MSA in the United States .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -658,8 +658,8 @@
       "evidence_used": "He was named Laureus World Sportsman of the Year twice .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 3,
-      "avg_time": 0.6102442741394043,
+      "avg_length": 13,
+      "avg_time": 1.2725811004638672,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sportsman of the Year has been awarded to Michael Schumacher.\nAvailable Evidence: He was named Laureus World Sportsman of the Year twice .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -675,7 +675,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.6261000633239746,
+      "avg_time": 0.4893460273742676,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Dileep acted in a film.\nAvailable Evidence: Films such as Sallapam -LRB- 1996 -RRB- , Ee Puzhayum Kadannu -LRB- 1997 -RRB- , Punjabi House -LRB- 1998 -RRB- , Udayapuram Sulthan -LRB- 1999 -RRB- , and Chandranudikkunna Dikhil -LRB- 1999 -RRB- established his status as a prominent actor during the late-1990s .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -691,7 +691,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.45977091789245605,
+      "avg_time": 0.36552906036376953,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Justin Bieber's fourth album came out in 2017.\nAvailable Evidence: His fourth studio album Purpose was released in November 2015 , spawning three number one singles : `` What Do You Mean ? ''\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -707,7 +707,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.45499277114868164,
+      "avg_time": 0.36594200134277344,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Las Vegas is renowned in Europe and South America.\nAvailable Evidence: Las Vegas is an internationally renowned major resort city known primarily for its gambling , shopping , fine dining , entertainment , and nightlife .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -723,7 +723,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.47986602783203125,
+      "avg_time": 0.39431309700012207,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Michelle Williams received a film nomination.\nAvailable Evidence: She won a Golden Globe and an Independent Spirit Award for her portrayal of Marilyn Monroe in My Week with Marilyn -LRB- 2011 -RRB- , which also garnered her BAFTA , SAG , and Academy Award nominations .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -739,7 +739,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.41475796699523926,
+      "avg_time": 0.3602001667022705,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Carmelo Anthony plays basketball.\nAvailable Evidence: He is the United States Olympic men 's national basketball team all-time leading scorer , leader in rebounds and games played .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -755,7 +755,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4185500144958496,
+      "avg_time": 0.38281702995300293,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Scabies is an entity.\nAvailable Evidence: Scabies , previously known as the seven-year itch , is a contagious skin infestation by the mite Sarcoptes scabiei .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -768,10 +768,10 @@
       "initiator": null,
       "num_turns": 0,
       "evidence_used": "Founded in 1917 by Henry M. Leland , Lincoln has been a subsidiary of Ford since 1922 .",
-      "final_prediction": "NOT ENOUGH INFO",
-      "accuracy": true,
-      "avg_length": 14,
-      "avg_time": 1.5246641635894775,
+      "final_prediction": "SUPPORTS",
+      "accuracy": false,
+      "avg_length": 18,
+      "avg_time": 1.6537621021270752,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Lincoln Motor Company was named by Henry M. Leland.\nAvailable Evidence: Founded in 1917 by Henry M. Leland , Lincoln has been a subsidiary of Ford since 1922 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -787,7 +787,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 3,
-      "avg_time": 0.5702097415924072,
+      "avg_time": 0.5093789100646973,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Lily Collins won One to Watch.\nAvailable Evidence: In 2008 , she was named Newest Red Carpet Correspondent and One to Watch in 2008 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -803,7 +803,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.45120882987976074,
+      "avg_time": 0.36621689796447754,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Gimli was featured in a legendarium.\nAvailable Evidence: Gimli is a fictional character from J. R. R. Tolkien 's Middle-earth legendarium , featured in The Lord of the Rings .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -819,7 +819,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4551999568939209,
+      "avg_time": 0.36268019676208496,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Her was given a wide release on January 11, 1654.\nAvailable Evidence: It was later given a wide release at over 1,700 theaters in the United States and Canada on January 10 , 2014 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -835,7 +835,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.47434210777282715,
+      "avg_time": 0.39426302909851074,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Bends is a fire hydrant.\nAvailable Evidence: The Bends marked the beginning of a shift in aesthetics and themes for the band , with greater use of keyboards and more abrasive guitar tracks , while balancing them with subtler ones .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -851,7 +851,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.436568021774292,
+      "avg_time": 0.3682830333709717,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Buzz Aldrin was born in January in 1930.\nAvailable Evidence: Buzz Aldrin -LRB- born Edwin Eugene Aldrin Jr. , January 20 , 1930 -RRB- is an American engineer and former astronaut .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -867,7 +867,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4068417549133301,
+      "avg_time": 0.358112096786499,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tamara Taylor is an actress.\nAvailable Evidence: Tamara Taylor -LRB- born September 27 , 1970 -RRB- is a Canadian actress .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -883,7 +883,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4780757427215576,
+      "avg_time": 0.4046931266784668,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tesla, Inc. is an electric car maker.\nAvailable Evidence: The Model S has been the world 's best-selling plug-in electric car for two years in a row , 2015 and 2016 . The Tesla Model S is a full-sized all-electric five-door , luxury liftback , produced by Tesla Inc. , and introduced on 22nd June 2012 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -899,7 +899,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4013960361480713,
+      "avg_time": 0.3555138111114502,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sharon Tate was an actress.\nAvailable Evidence: She made her film debut in 1966 with the occult-themed Eye of the Devil .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -915,7 +915,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.47644996643066406,
+      "avg_time": 0.39568591117858887,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Charles, Prince of Wales founded The Prince's Trust in 1976.\nAvailable Evidence: Charles 's interests encompass a range of humanitarian and social issues : he founded The Prince 's Trust in 1976 , sponsors The Prince 's Charities , and is patron of numerous other charitable and arts organisations .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -931,7 +931,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4227447509765625,
+      "avg_time": 0.3630561828613281,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Bon Scott was the lead singer for a band.\nAvailable Evidence: Scott formed his first band , The Spektors , in 1964 and became the band 's drummer and occasional lead vocalist .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -947,7 +947,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5663621425628662,
+      "avg_time": 0.44705700874328613,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Rod Laver is a former athlete.\nAvailable Evidence: Rodney George `` Rod '' Laver -LRB- born 9 August 1938 -RRB- is an Australian former tennis player widely regarded as one of the greatest in tennis history . Tennis is a racket sport that can be played individually against a single opponent -LRB- singles -RRB- or between two teams of two players each -LRB- doubles -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -963,7 +963,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4631061553955078,
+      "avg_time": 0.3968319892883301,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Live Your Life is by Miley Cyrus.\nAvailable Evidence: `` Live Your Life '' is a song by American rapper T.I. , from his sixth studio album , Paper Trail -LRB- 2008 -RRB- , and features Barbadian singer Rihanna .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -979,7 +979,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4670138359069824,
+      "avg_time": 0.4029960632324219,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Shraddha Kapoor acts.\nAvailable Evidence: The daughter of actor Shakti Kapoor , she began her acting career with a brief role in the 2010 heist film Teen Patti and followed it with her first leading role in the teen drama Luv Ka The End -LRB- 2011 -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -995,7 +995,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.48479175567626953,
+      "avg_time": 0.4021279811859131,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Neve Campbell starred in a Netflix drama series' fourth and fifth seasons.\nAvailable Evidence: Campbell has also made guest appearances on several television series , such as Medium , Grey 's Anatomy and Mad Men , as well as a starring role in the fourth and fifth seasons of the critically acclaimed Netflix drama series House of Cards .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1011,7 +1011,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5429611206054688,
+      "avg_time": 0.4003734588623047,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Bruno Mar's band plays different instruments.\nAvailable Evidence: He is accompanied by his band , The Hooligans , who play a variety of instruments such as electric guitar , bass , piano , keyboards , drums and horns , and also serve as backup singers and dancers .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1027,7 +1027,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5415520668029785,
+      "avg_time": 0.3953232765197754,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Melissa McCarthy is incapable of appearing in television.\nAvailable Evidence: She has also been nominated four times -LRB- in 2012 , 2013 , 2014 and 2016 -RRB- for the Primetime Emmy Award for Outstanding Guest Actress in a Comedy Series for her five appearances as host on Saturday Night Live .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1043,7 +1043,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5194597244262695,
+      "avg_time": 0.45165514945983887,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tennis was a term used to refer to real tennis in the 19th century.\nAvailable Evidence: During most of the 19th century , in fact , the term `` tennis '' referred to real tennis , not lawn tennis : for example , in Disraeli 's novel Sybil -LRB- 1845 -RRB- , Lord Eugene De Vere announces that he will `` go down to Hampton Court and play tennis . ''\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1059,7 +1059,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4576418399810791,
+      "avg_time": 0.4028501510620117,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Anderson Silva was born on the day of the 15th.\nAvailable Evidence: Anderson da Silva -LRB- -LSB- \u02c8\u0250\u0303de\u0281s\u00f5 \u02c8siwv\u0250 -RSB- ; born April 14 , 1975 -RRB- is a Brazilian mixed martial artist and former UFC Middleweight Champion .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1075,7 +1075,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5639488697052002,
+      "avg_time": 0.482241153717041,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Mike Tyson boxed Evander Holyfield in November 1996.\nAvailable Evidence: After being stripped of the WBC title in the same year , Tyson lost the WBA title to Evander Holyfield by an eleventh-round stoppage . Mike Tyson vs. Evander Holyfield , billed as `` Finally '' , was a professional boxing match fought between Evander Holyfield and Mike Tyson for the World Boxing Association heavyweight championship on November 9 , 1996 at the MGM Grand Garden Arena in Paradise , Nevada .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1091,7 +1091,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5210931301116943,
+      "avg_time": 0.45113611221313477,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: In 1969, Yoko Ono and her husband John Lennon held two week-long Bed-Ins for Peace.\nAvailable Evidence: As the Vietnam War raged in 1969 , Yoko Ono and her husband John Lennon held two week-long Bed-Ins for Peace , one at the Hilton Hotel in Amsterdam and one at Fairmont The Queen Elizabeth in Montreal , each of which were intended to be non-violent protests against wars , and experimental tests of new ways to promote peace .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1106,8 +1106,8 @@
       "evidence_used": "Princess Margaret may refer to :",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 4,
-      "avg_time": 0.6214601993560791,
+      "avg_length": 1,
+      "avg_time": 0.32852697372436523,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Princess Margaret had at least three championships.\nAvailable Evidence: Princess Margaret may refer to :\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1123,7 +1123,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 6,
-      "avg_time": 0.7743911743164062,
+      "avg_time": 0.711277961730957,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Thirteen was written by Nikki Reed in 2001.\nAvailable Evidence: The script was written in six days .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1139,7 +1139,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.420795202255249,
+      "avg_time": 0.3920130729675293,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Pluto has moons.\nAvailable Evidence: Pluto has five known moons : Charon -LRB- the largest , with a diameter just over half that of Pluto -RRB- , Styx , Nix , Kerberos , and Hydra .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1155,7 +1155,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4439888000488281,
+      "avg_time": 0.39877772331237793,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tyra Banks was an African American model.\nAvailable Evidence: Born in Inglewood , California , she began her career as a model at age 15 , and was the first African American woman to be featured on the covers of GQ and the Sports Illustrated Swimsuit Issue , on which she appeared twice .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1171,7 +1171,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.444364070892334,
+      "avg_time": 0.4005458354949951,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Jordan Peele isn't a producer.\nAvailable Evidence: His directorial debut , the horror film Get Out , was released in 2017 to critical acclaim and box-office success . Get Out is a 2017 American horror film written , co-produced and directed by Jordan Peele , in his directorial debut .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1187,7 +1187,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.6706290245056152,
+      "avg_time": 0.5763199329376221,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Philippines were named after a King of Spain.\nAvailable Evidence: In 1543 , Spanish explorer Ruy L\u00f3pez de Villalobos named the archipelago Las Islas Filipinas in honor of Philip II of Spain . Philip II of Spain -LRB- Felipe II 21 May 1527 -- 13 September 1598 -RRB- , called `` the Prudent '' -LRB- el Prudente -RRB- , was King of Spain -LRB- 1556 -- 98 -RRB- , King of Portugal -LRB- 1581 -- 98 , as Philip I , Filipe I -RRB- , King of Naples and Sicily -LRB- both from 1554 -RRB- , and jure uxoris King of England and Ireland -LRB- during his marriage to Queen Mar\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1203,7 +1203,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.44639110565185547,
+      "avg_time": 0.39523768424987793,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Bill Gates is a murderer.\nAvailable Evidence: `` Swiftwater '' Bill Gates -LRB- died 1935 -RRB- was an American frontiersman and fortune hunter , and a fixture in stories of the Klondike Gold Rush .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1219,7 +1219,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.40079307556152344,
+      "avg_time": 0.36025094985961914,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Black Panther is a five act play.\nAvailable Evidence: In July 1967 , after the raid , the assembly passed the Mulford Act prohibiting the public carrying of loaded firearms .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1235,7 +1235,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.435075044631958,
+      "avg_time": 0.39441394805908203,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Charlemagne was crowned by Pope Leo III.\nAvailable Evidence: Charlemagne reached the height of his power in 800 when he was crowned Emperor of the Romans by Pope Leo III on Christmas Day at Old St. Peter 's Basilica .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1250,8 +1250,8 @@
       "evidence_used": "Filming for King Kong took place in New Zealand from September 2004 to March 2005 .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 7,
-      "avg_time": 0.9045419692993164,
+      "avg_length": 1,
+      "avg_time": 0.3571960926055908,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: King Kong is a film.\nAvailable Evidence: Filming for King Kong took place in New Zealand from September 2004 to March 2005 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1266,8 +1266,8 @@
       "evidence_used": "She is the only tennis player to have won a medal at four separate Olympic Games .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 1,
-      "avg_time": 0.38344502449035645,
+      "avg_length": 3,
+      "avg_time": 0.5073881149291992,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Venus Williams plays tennis.\nAvailable Evidence: She is the only tennis player to have won a medal at four separate Olympic Games .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1282,8 +1282,8 @@
       "evidence_used": "It is a part of the Shirur -LRB- Lok Sabha constituency -RRB- in the Pune district along with five other assembly constituencies , viz Junnar , Khed Alandi , Shirur , Bhosari and Hadapsar .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 1,
-      "avg_time": 0.4476900100708008,
+      "avg_length": 13,
+      "avg_time": 1.3414700031280518,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Alandi is in the southern Pune district.\nAvailable Evidence: It is a part of the Shirur -LRB- Lok Sabha constituency -RRB- in the Pune district along with five other assembly constituencies , viz Junnar , Khed Alandi , Shirur , Bhosari and Hadapsar .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1299,7 +1299,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.553286075592041,
+      "avg_time": 0.4897627830505371,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Resident Evil is not a franchise built around survival horror video games.\nAvailable Evidence: The franchise focuses around a series of survival horror video games , but has since branched out into comic books , novels , novelizations , sound dramas , live-action films , animated sequels to the games , and a variety of associated merchandise , such as action figures . Resident Evil , known as in Japan , is a survival horror video game-based media franchise created by Shinji Mikami and Tokuro Fujiwara and owned by the video game company Capcom .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1315,7 +1315,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.47266197204589844,
+      "avg_time": 0.41059088706970215,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Who's first single was \"Look What You Made Me Do.\"\nAvailable Evidence: Their first single as the Who , `` I Ca n't Explain '' , reached the UK top ten , followed by a string of singles including `` My Generation '' , `` Substitute '' and `` Happy Jack '' .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1331,7 +1331,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4589071273803711,
+      "avg_time": 0.3961801528930664,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: There are cultural, historical, and aesthetic significance with the film The Breakfast Club.\nAvailable Evidence: In 2016 , the film was selected for preservation in the United States National Film Registry by the Library of Congress as being `` culturally , historically , or aesthetically significant '' .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1347,7 +1347,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.39896225929260254,
+      "avg_time": 0.3622550964355469,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Andrew Garfield died on August 10, 1983.\nAvailable Evidence: Andrew Russell Garfield -LRB- born 20 August 1983 -RRB- is a British-American actor .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1362,8 +1362,8 @@
       "evidence_used": "She is known for her role as Piper Chapman on the Netflix original comedy-drama series Orange Is the New Black -LRB- 2013 -- present -RRB- , for which she received a nomination for the Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series and two Golden Globe Award nominations for Best Actress -- Television Series Musical or Comedy and Best Actress -- Television Series Drama .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 15,
-      "avg_time": 1.8218700885772705,
+      "avg_length": 1,
+      "avg_time": 0.46059489250183105,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Taylor Schilling is recognized for her portrayal of Piper Chapman.\nAvailable Evidence: She is known for her role as Piper Chapman on the Netflix original comedy-drama series Orange Is the New Black -LRB- 2013 -- present -RRB- , for which she received a nomination for the Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series and two Golden Globe Award nominations for Best Actress -- Television Series Musical or Comedy and Best Actress -- Television Series Drama .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1379,7 +1379,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4150502681732178,
+      "avg_time": 0.3711738586425781,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Ginger Baker is a musician.\nAvailable Evidence: Peter Edward `` Ginger '' Baker -LRB- born 19 August 1939 -RRB- is an English drummer , best known as the founder of the rock band Cream .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1395,7 +1395,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.45000195503234863,
+      "avg_time": 0.40364623069763184,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Bradley Cooper appeared in a movie.\nAvailable Evidence: He first gained recognition as Will Tippin in the spy-action television show Alias -LRB- 2001 -- 2006 -RRB- , and achieved minor success with a supporting part in the comedy film Wedding Crashers -LRB- 2005 -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1411,7 +1411,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.46251702308654785,
+      "avg_time": 0.3955957889556885,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Australia has a backchannel with both the United States and New Zealand to cooperate on military matters worldwide.\nAvailable Evidence: Accounting for approximately a quarter of global GDP and a third of global military spending , the United States is the world 's foremost economic and military power .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1427,7 +1427,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.47362208366394043,
+      "avg_time": 0.3664419651031494,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The characters in Grey's Anatomy only evolve into seasoned chefs.\nAvailable Evidence: The series focuses on the fictional lives of surgical interns , residents and attending physicians , as they evolve into seasoned doctors while trying to maintain personal lives and relationships .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1443,7 +1443,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5337820053100586,
+      "avg_time": 0.39806294441223145,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Council on Foreign Relations is from the United States since 1921.\nAvailable Evidence: The Council on Foreign Relations -LRB- CFR -RRB- , founded in 1921 , is a United States nonprofit think tank specializing in U.S. foreign policy and international affairs .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1459,7 +1459,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5557210445404053,
+      "avg_time": 0.3942298889160156,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The English language isn't influenced by Germanic languages.\nAvailable Evidence: English -LSB- \u02c8\u026a\u014b\u0261l\u026a\u0283 -RSB- is a West Germanic language that was first spoken in early medieval England and is now the global lingua franca .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1475,7 +1475,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5591599941253662,
+      "avg_time": 0.41039395332336426,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Edgar Allan Poe was a raven.\nAvailable Evidence: Poe died in Baltimore on October 7 , 1849 , at age 40 ; the cause of his death is unknown and has been variously attributed to alcohol , brain congestion , cholera , drugs , heart disease , rabies , suicide , tuberculosis , and other agents .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1491,7 +1491,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
       "avg_length": 1,
-      "avg_time": 0.469285249710083,
+      "avg_time": 0.3696000576019287,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sunrise created Ghost in the Shell.\nAvailable Evidence: Eilean Meadhonach is the second largest of the Crowlin Islands , located in the Inner Sound off the island of Skye , Scotland .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1507,7 +1507,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5880849361419678,
+      "avg_time": 0.4316439628601074,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Sriti Jha plays the lead role in an Hindi-language TV show.\nAvailable Evidence: She is a currently playing the lead role of Pragya in Zee TV 's show Kumkum Bhagya . Kumkum Bhagya -LRB- English : Vermillion In My Fate -RRB- is a Hindi-language Indian soap opera which premiered on 15 April 2014 .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1523,7 +1523,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.5749287605285645,
+      "avg_time": 0.3995540142059326,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Tetris has sold zero copies.\nAvailable Evidence: In January 2010 , it was announced that the Tetris franchise had sold more than 170 million copies , approximately 70 million physical copies and over 100 million copies for cell phones , making it the best selling paid-downloaded game of all time .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1538,8 +1538,8 @@
       "evidence_used": "The European dragon , derived from European folk traditions and ultimately related to Balkans and Western Asian mythologies .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 2,
-      "avg_time": 0.5768299102783203,
+      "avg_length": 9,
+      "avg_time": 0.9728419780731201,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Dragon is derived from the Sinhalese.\nAvailable Evidence: The European dragon , derived from European folk traditions and ultimately related to Balkans and Western Asian mythologies .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1555,7 +1555,7 @@
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
       "avg_length": 1,
-      "avg_time": 0.4657869338989258,
+      "avg_time": 0.3979659080505371,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: Octavia Spencer worked in the Divergent film franchise.\nAvailable Evidence: Recently , Spencer has received acclaim for her work in the films Get on Up , Black or White , Smashed , Snowpiercer , The Divergent Series : Insurgent , and Zootopia .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1570,8 +1570,8 @@
       "evidence_used": "Unlike many other football clubs , the supporters own and operate Barcelona .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": false,
-      "avg_length": 6,
-      "avg_time": 0.8257942199707031,
+      "avg_length": 1,
+      "avg_time": 0.35927391052246094,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: FC Barcelona is a sports club.\nAvailable Evidence: Unlike many other football clubs , the supporters own and operate Barcelona .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1586,8 +1586,8 @@
       "evidence_used": "The Formosa Resolution was a bill enacted by the U.S. Congress on January 29 , 1955 that established an American commitment to defend Formosa -LRB- now called Taiwan -RRB- .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 1,
-      "avg_time": 0.4401888847351074,
+      "avg_length": 5,
+      "avg_time": 0.7001118659973145,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Formosa Resolution lost congressional approval under Dwight D. Eisenhower.\nAvailable Evidence: The Formosa Resolution was a bill enacted by the U.S. Congress on January 29 , 1955 that established an American commitment to defend Formosa -LRB- now called Taiwan -RRB- .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     },
@@ -1602,15 +1602,15 @@
       "evidence_used": "It stars Shah Rukh Khan , Sunil Shetty , Sushmita Sen , Zayed Khan and Amrita Rao in the main cast .",
       "final_prediction": "NOT ENOUGH INFO",
       "accuracy": true,
-      "avg_length": 4,
-      "avg_time": 0.6609258651733398,
+      "avg_length": 1,
+      "avg_time": 0.3702569007873535,
       "dialogue": [],
       "prompt_used": "Fact Verification Task:\nClaim: The Heart is Crazy stars Shah Rukh Khan.\nAvailable Evidence: It stars Shah Rukh Khan , Sunil Shetty , Sushmita Sen , Zayed Khan and Amrita Rao in the main cast .\n\nBased on this information, the claim is: (SUPPORTS/REFUTES/NOT ENOUGH INFO)\nAnswer:"
     }
   ],
   "stats": {
-    "accuracy": 0.21,
-    "avg_length": 2.12,
-    "avg_time": 0.5684589624404908
+    "accuracy": 0.2,
+    "avg_length": 2.13,
+    "avg_time": 0.49130586862564085
   }
 }
